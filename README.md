@@ -1,18 +1,20 @@
 # Smart Travel Planner
 
-## 1. Data Architecture & Feature Engineering
+## 🛠️ 1. Data Architecture & Feature Engineering
 
-### The Dataset
-To build a defensible machine learning pipeline, this project utilizes a custom-compiled dataset engineered from three separate Kaggle sources:
-1. **World Cities Database:** Served as the geographic anchor to ensure standardized city names, countries, and coordinates.
-2. **World Famous Places:** Aggregated to provide cultural and historical metrics.
-3. **Tourist Destinations:** Provided baseline metrics for tourist popularity and costs.
+Rather than relying on synthetic or pre-labeled Kaggle datasets, the data pipeline aggregates:
 
-### Labeling Rules & Feature Justification
-To classify destinations into specific travel styles (Adventure, Relaxation, Culture, Budget, Luxury, Family), the following raw features were engineered and utilized:
+* **Geographic Hub (World Cities):** Serves as the geographic anchor, providing standardized city names, country ISO codes, exact geographic coordinates (Lat/Lng) for map plotting, and population metrics (to gauge urban density for "Culture" and "Family" suitability).
+* **Economic Reality (Numbeo Cost of Living Index):** Provides real-world economic metrics (e.g., Restaurant Price Index, Groceries Index, Rent). This mathematical foundation allows the model to definitively distinguish between "Budget" and "Luxury" destinations without subjective bias.
+* **Meteorological Baselines (Global City Climate Data):** Provides historical average temperatures by month. This addresses physical user constraints (e.g., "I want somewhere warm in July") and correlates strongly with "Relaxation" or "Adventure" biomes.
 
-* **[Feature 1 - e.g., Cost of Living Index]:** Utilized to mathematically distinguish "Budget" vs. "Luxury" classifications.
-* **[Feature 2 - e.g., Annual Visitors]:** Used to filter for the user's "not too touristy" constraint and identify high-traffic generic destinations.
-* **[Feature 3 - e.g., UNESCO Site Count]:** Grouped by city from attraction-level data to provide concrete evidence for "Culture" labels.
+### 2. The Data Engineering Pipeline
+The dataset was constructed using a custom Python backend script (`backend/scripts/dataset_merger.py`) with the following methodology:
+1. **The Anchor Extraction:** Filtered a global database of 48,000+ cities down to the top 600 most populated global hubs to ensure recognizable, highly-trafficked tourist destinations.
+2. **Data Sanitization:** * Parsed combined `"City, Country"` string arrays into atomic columns.
+   * Cleansed scraped meteorological data by stripping extraneous Fahrenheit conversions, newline characters, and typographic Unicode minus signs (`−`) to ensure pure `float64` compatibility.
+3. **The Grand Merge (Inner Join):** Utilized rigorous lowercase string matching and Python Set intersections to perform an inner join across all three disparate datasets.
 
+### 3. The Final Dataset
+The pipeline resulted in a pristine, `NaN`-free dataset of exactly **108 global destinations**, perfectly satisfying the project's strict 100-to-200 destination requirement. This curated matrix provides robust, uncorrupted feature vectors (`X`) ready for label engineering and machine learning classification.
 *(More features to be documented as data cleaning progresses)*
