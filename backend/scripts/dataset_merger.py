@@ -133,8 +133,15 @@ master_df = target_destinations.merge(
 
 # 2. Inner join the result with the weather data
 # We only need the July and Year averages for our feature engineering
+# First, calculate our seasonal averages on the weather dataframe
+clean_weather_df['Temp_DecJanFeb'] = clean_weather_df[['Dec', 'Jan', 'Feb']].mean(axis=1).round(1)
+clean_weather_df['Temp_MarAprMay'] = clean_weather_df[['Mar', 'Apr', 'May']].mean(axis=1).round(1)
+clean_weather_df['Temp_JunJulAug'] = clean_weather_df[['Jun', 'Jul', 'Aug']].mean(axis=1).round(1)
+clean_weather_df['Temp_SepOctNov'] = clean_weather_df[['Sep', 'Oct', 'Nov']].mean(axis=1).round(1)
+
+# Now, merge only these new engineered columns (plus the Year average)
 master_df = master_df.merge(
-    clean_weather_df[['match_name', 'Jul', 'Year']].rename(columns={'Jul': 'Temp_July', 'Year': 'Temp_YearAvg'}),
+    clean_weather_df[['match_name', 'Temp_DecJanFeb', 'Temp_MarAprMay', 'Temp_JunJulAug', 'Temp_SepOctNov', 'Year']].rename(columns={'Year': 'Temp_YearAvg'}),
     on='match_name',
     how='inner'
 )
