@@ -1,0 +1,7 @@
+timestamp,model,params,accuracy_mean,accuracy_std,f1_macro_mean,f1_macro_std
+2026-04-28 22:33:06,Logistic Regression,default_baseline,0.7948,0.1148,0.7716,0.1183
+2026-04-28 22:33:06,Random Forest,default_baseline,0.8978,0.0686,0.8864,0.0748
+2026-04-28 22:33:07,HistGradient Boosting,default_baseline,0.9169,0.0602,0.9039,0.0643
+2026-04-28 23:09:12,Logistic Regression,default_baseline,0.7948,0.1148,0.7716,0.1183
+2026-04-28 23:09:12,Random Forest,default_baseline,0.8978,0.0686,0.8864,0.0748
+2026-04-28 23:09:13,HistGradient Boosting,default_baseline,0.9169,0.0602,0.9039,0.0643

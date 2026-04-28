@@ -42,3 +42,32 @@ To establish a balanced ground truth across the 108 destinations, an ordered heu
 6. **Adventure (Fallback):** Captures the remaining destinations, which predominantly feature extreme distinct seasons, remote locations, or mid-tier economic profiles.
 
 By tuning the thresholds and intentionally ordering the pipeline, this methodology successfully eliminated class imbalance. The resulting target variable (`Travel_Style`) is highly distributed, with every class maintaining a healthy volume of 15 to 26 destinations to ensure unbiased model training.
+
+## 🤖 3. Machine Learning Classification
+
+The core intelligence of the agent relies on a multi-class classification model designed to map a set of numeric and categorical constraints (budget, weather, scale) into one of the six defined `Travel_Style` classes.
+
+### 1. Leakage Prevention & Preprocessing
+To ensure the model learns generalized travel patterns rather than memorizing specific locations, strict data leakage prevention was enforced. Geographic identifiers (`city`, `country`, `lat`, `lng`) were completely dropped from the feature space (`X`) prior to training.
+
+To satisfy strict engineering standards, all preprocessing was encapsulated within a `scikit-learn` **Pipeline** utilizing a `ColumnTransformer`:
+* **Numerical Features:** (e.g., temperatures, cost indices) transformed via `StandardScaler`.
+* **Categorical Features:** (`City_Scale`) transformed via `OneHotEncoder`.
+Because these steps live *inside* the pipeline, transformations occur independently on each fold during cross-validation, guaranteeing zero data leakage from the validation sets.
+
+### 2. Model Comparison & K-Fold Cross Validation
+To identify the strongest architecture, three distinct algorithms were evaluated using a **Stratified 5-Fold Cross-Validation** strategy. Because some travel styles are naturally rarer, models were evaluated strictly on **Macro F1** and **Accuracy** to ensure minority classes were treated equally to majority classes.
+
+| Classifier | Architecture Type | CV Accuracy | CV Macro F1 |
+| :--- | :--- | :--- | :--- |
+| **Logistic Regression** | Linear Baseline | 0.7948 ± 0.1148 | 0.7716 ± 0.1183 |
+| **Random Forest** | Bagged Ensemble | 0.8978 ± 0.0686 | 0.8864 ± 0.0748 |
+| **HistGradient Boosting** | Gradient Boosting | **0.9169 ± 0.0602** | **0.9039 ± 0.0643** |
+
+* **Why HistGradient Boosting?** Tabular data heavily favors tree-based models. Random Forest performed well, but HistGradient Boosting's iterative error-correction sequence allowed it to perfectly map the deterministic boundaries established during our label engineering phase, making it the clear winner.
+
+### 3. Hyperparameter Tuning & Serialization
+The winning HistGradient Boosting pipeline was fine-tuned using `GridSearchCV` (optimizing for `f1_macro` across 5 folds). The search space included learning rates, tree depth (`max_iter`), and `l2_regularization`. 
+* **Tuned Results:** The optimal parameters (`learning_rate`: 0.05, `max_iter`: 150, `l2_regularization`: 0.0) pushed the final Cross-Validated Macro F1 to **0.9240**.
+
+A permutation importance analysis confirmed the model relies most heavily on `City_Scale` and `Tourist_Cost_Score`—proving it logically groups destinations identically to human intuition. The final, tuned pipeline was serialized via `joblib` and is injected as a dependency singleton into the FastAPI backend during the application lifespan loop.
