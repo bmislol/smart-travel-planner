@@ -1,35 +1,48 @@
+import os
 import joblib
-from anyio import to_thread
-from typing import List, Any
 import pandas as pd
+from anyio import to_thread
+from typing import Optional
+
 from app.core.config import settings
+from app.schemas.ml import DestinationFeatures
 
-class MLClassifierService:
-    def __init__(self, model_path: str):
-        # 1. Load the model once during initialization (Singleton)
-        # This will be called in the Lifespan handler on startup
-        try:
+class TravelStyleClassifier:
+    def __init__(self):
+        self.model = None
+
+    def load_model(self):
+        """Loads the scikit-learn pipeline into memory. Called once at startup."""
+        if self.model is None:
+            # We use the absolute path to ensure it finds the joblib file
+            backend_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))            
+            project_root = os.path.dirname(backend_dir)
+            model_path = os.path.join(project_root, "data", "ml", "travel_style_classifier.joblib")
+            
+            if not os.path.exists(model_path):
+                raise FileNotFoundError(f"Classifier model not found at {model_path}")
+            
             self.model = joblib.load(model_path)
-            print(f"✅ ML Classifier loaded from {model_path}")
-        except Exception as e:
-            print(f"⚠️ Warning: Could not load ML model at {model_path}: {e}")
-            self.model = None
 
-    async def predict_style(self, features: dict) -> str:
+    async def predict_style(self, features: DestinationFeatures) -> str:
         """
-        Predicts travel style (Adventure, Relaxation, etc.) based on features.
-        Wrapped in a thread to remain non-blocking.
+        Takes validated Pydantic features, converts to DataFrame, and predicts.
+        Runs in a separate thread to ensure FastAPI's event loop isn't blocked.
         """
-        if not self.model:
-            return "Unknown (Model not loaded)"
+        if self.model is None:
+            raise RuntimeError("Classifier model is not loaded. Check lifespan startup.")
 
-        # Convert the dictionary of features into a DataFrame (scikit-learn requirement)
-        input_df = pd.DataFrame([features])
+        # Convert the Pydantic model to a dictionary, respecting the alias for 'Cost of Living Index'
+        data_dict = features.model_dump(by_alias=True)
         
-        # Run prediction in a separate thread to avoid blocking the event loop
-        prediction = await to_thread.run_sync(self._run_prediction, input_df)
+        # Wrap the dictionary in a list so Pandas creates a 1-row DataFrame
+        df = pd.DataFrame([data_dict])
+        
+        # Run the synchronous CPU-bound predict function in a thread worker
+        prediction = await to_thread.run_sync(self.model.predict, df)
+        
+        # Return the string label (e.g., "Culture", "Adventure")
         return prediction[0]
 
-    def _run_prediction(self, df: pd.DataFrame) -> Any:
-        # Standard scikit-learn predict call
-        return self.model.predict(df)
+# The Singleton Instance
+classifier_service = TravelStyleClassifier()
