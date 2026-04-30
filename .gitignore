@@ -8,5 +8,7 @@ __pycache__/
 # Environment Variables
 .env
 
+.gemini/
+
 # Allow data folder (Explicitly tracked for reviewer replication)
 !data/
