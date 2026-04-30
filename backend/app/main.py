@@ -8,6 +8,8 @@ from app.services.classifier_service import classifier_service
 from app.services.weather_service import weather_service
 from app.db.session import engine
 
+from app.api import auth, deps
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # --- STARTUP ---
@@ -31,6 +33,9 @@ async def lifespan(app: FastAPI):
     await engine.dispose() # Cleanly close DB connections
 
 app = FastAPI(lifespan=lifespan, title="Smart Travel Planner API")
+
+# Include our API routers
+app.include_router(auth.router, prefix="/api/auth", tags=["Authentication"])
 
 @app.get("/")
 async def health_check():
