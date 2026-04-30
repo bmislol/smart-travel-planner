@@ -1,107 +1,131 @@
-import numpy as np
+import os
+import sys
+import json
+import asyncio
 import pandas as pd
 from pathlib import Path
+from anthropic import AsyncAnthropic
 
-print("All libraries imported successfully.")
+# --- DYNAMIC PATHING & IMPORTS ---
+# Resolve the absolute path to the backend directory
+SCRIPT_DIR = Path(__file__).resolve().parent
+BACKEND_DIR = SCRIPT_DIR.parent
+PROJECT_ROOT = BACKEND_DIR.parent
 
-SCRIPT_DIR = Path(__file__).parent.resolve()
+# Add backend directory to sys.path so we can import your FastAPI app modules
+sys.path.append(str(BACKEND_DIR))
 
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
+# Import your single source of truth for config!
+from app.core.config import settings
 
+# Initialize Claude Client using your pydantic settings
+client = AsyncAnthropic(api_key=settings.ANTHROPIC_API_KEY)
+
+# Directory Setup
 CLEANED_DIR = PROJECT_ROOT / 'data' / 'cleaned'
 RAW_DIR = PROJECT_ROOT / 'data' / 'raw'
 
-CLEANED_DIR.mkdir(parents=True, exist_ok=True)
-RAW_DIR.mkdir(parents=True, exist_ok=True)
+async def generate_trip_profiles(row):
+    """
+    Sends city data to Claude and asks for 8 unique trip profiles in JSON format.
+    """
+    prompt = f"""
+    You are an expert travel planner. I am building a machine learning dataset.
+    Look at this destination and its cost metrics:
+    - City: {row['city']}, {row['country']}
+    - Cost of Living Index: {row['Cost of Living Index']}
+    - Tourist Cost Score: {row['Tourist_Cost_Score']}
+    - City Scale: {row['City_Scale']}
 
+    Generate exactly 8 unique trip profiles for this city. 
+    For each profile, provide:
+    1. "Primary_Activity": A specific, real-world activity, landmark, or attraction in THIS specific city.
+    2. "Trip_Pace": Choose either "Fast", "Moderate", or "Relaxed".
+    3. "Travel_Style": You MUST classify the profile into exactly ONE of these strict labels: [Adventure, Relaxation, Culture, Budget, Luxury, Family]. Match the label logically to the activity.
 
+    Return ONLY a raw JSON array of objects. Do not include markdown formatting or backticks.
+    Example format:
+    [
+      {{"Primary_Activity": "...", "Trip_Pace": "...", "Travel_Style": "..."}}
+    ]
+    """
 
-# Load the raw merged dataset
-df = pd.read_csv(RAW_DIR / 'smart_travel_dataset.csv') 
-
-# Quick sanity check: Verify we have exactly 108 rows and check the exact column names
-print(f"Dataset shape: {df.shape}")
-print("\nColumns available for feature engineering:")
-print(df.columns.tolist())
-
-# Feature Engineering
-
-# 1. Climate Features
-# Define the seasonal columns to find the max and min temperatures across the year
-seasonal_cols = ['Temp_DecJanFeb', 'Temp_MarAprMay', 'Temp_JunJulAug', 'Temp_SepOctNov']
-df['Temp_Variance'] = df[seasonal_cols].max(axis=1) - df[seasonal_cols].min(axis=1)
-
-# 2. Economic Features
-# Average the general cost of living with restaurant prices (ignoring rent)
-df['Tourist_Cost_Score'] = (df['Cost of Living Index'] + df['Restaurant Price Index']) / 2
-
-# Ratio of eating out vs buying groceries. 
-df['Dining_Out_Premium'] = df['Restaurant Price Index'] / df['Groceries Index']
-
-# 3. Demographic Features
-# Convert raw population into categorical bins
-# Bins: 0 to 3M (Mid/Small), 3M to 10M (Large), 10M to 100M (Megacity)
-bins = [0, 3000000, 10000000, 100000000]
-labels = ['Mid/Small', 'Large', 'Megacity']
-df['City_Scale'] = pd.cut(df['population'], bins=bins, labels=labels)
-
-# 4. Cleanup
-# Drop the columns that are just noise for tourists
-cols_to_drop = ['Rent Index', 'Cost of Living Plus Rent Index', 'population']
-df = df.drop(columns=cols_to_drop)
-
-# Verify the changes
-print("Shape after engineering:", df.shape)
-
-# Auto-Labeling the Target Variable (Travel_Style) - TWEAKED
-
-def assign_travel_style(row):
-    # 1. Culture (Moved to Top): Catch massive hubs first so they don't get swallowed by Budget/Luxury
-    if row['City_Scale'] == 'Megacity':
-        return 'Culture'
+    try:
+        response = await client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=1000,
+            temperature=0.7,
+            messages=[{"role": "user", "content": prompt}]
+        )
         
-    # 2. Relaxation (Broadened): Looser climate rules for warm, relatively stable destinations
-    elif row['Temp_Variance'] <= 12 and row['Temp_YearAvg'] >= 22:
-        return 'Relaxation'
+        raw_text = response.content[0].text.strip()
+        if raw_text.startswith("```json"): raw_text = raw_text[7:]
+        if raw_text.startswith("```"): raw_text = raw_text[3:]
+        if raw_text.endswith("```"): raw_text = raw_text[:-3]
+            
+        return json.loads(raw_text.strip())
         
-    # 3. Luxury (Slightly Lowered): Capture upper-tier expensive cities
-    elif row['Tourist_Cost_Score'] >= 70:
-        return 'Luxury'
+    except Exception as e:
+        print(f"Error generating profiles for {row['city']}: {e}")
+        return None
+
+async def main():
+    print("Loading raw dataset...")
+    df = pd.read_csv(RAW_DIR / 'smart_travel_dataset.csv') 
+    
+    # Feature Engineering
+    df['Tourist_Cost_Score'] = (df['Cost of Living Index'] + df['Restaurant Price Index']) / 2
+    df['Dining_Out_Premium'] = df['Restaurant Price Index'] / df['Groceries Index']
+
+    bins = [0, 3000000, 10000000, 100000000]
+    labels = ['Mid/Small', 'Large', 'Megacity']
+    df['City_Scale'] = pd.cut(df['population'], bins=bins, labels=labels)
+
+    # Aggressive Cleanup
+    cols_to_drop = [
+        'Rent Index', 'Cost of Living Plus Rent Index', 'population',
+        'Temp_DecJanFeb', 'Temp_MarAprMay', 'Temp_JunJulAug', 'Temp_SepOctNov', 'Temp_YearAvg'
+    ]
+    cols_to_drop = [c for c in cols_to_drop if c in df.columns]
+    df = df.drop(columns=cols_to_drop)
+
+    df.to_csv(CLEANED_DIR / 'smart_travel_dataset_cleaned.csv', index=False)
+    print("Dataset trimmed and base features saved.")
+
+    # The Main Generation Loop
+    expanded_rows = []
+    print("\nStarting generation loop...")
+
+    for index, row in df.iterrows():
+        if index % 10 == 0:
+            print(f"Processing city {index + 1} of {len(df)}...")
+            
+        profiles = await generate_trip_profiles(row)
         
-    # 4. Family (Slightly Lowered): High purchasing power (safety/infrastructure)
-    elif row['Local Purchasing Power Index'] >= 65:
-        return 'Family'
+        if profiles:
+            for profile in profiles:
+                new_row = row.to_dict()
+                new_row.update(profile)
+                expanded_rows.append(new_row)
         
-    # 5. Budget (Shrunken and Moved Down): Only catches genuinely low-cost places
-    elif row['Tourist_Cost_Score'] <= 32:
-        return 'Budget'
-        
-    # 6. Adventure: Fallback for everything else (usually places with distinct seasons or mid-tier costs)
-    else:
-        return 'Adventure'
+        await asyncio.sleep(0.5)
 
-# Apply the updated function
-df['Travel_Style'] = df.apply(assign_travel_style, axis=1)
+    print(f"\nFinished! Generated a total of {len(expanded_rows)} trip profiles.")
 
-# Check the new distribution
-print("NEW Class Distribution:\n")
-print(df['Travel_Style'].value_counts())
-print(f"\nTotal Labeled: {df['Travel_Style'].count()} / 108")
+    # Assembly & Export
+    augmented_df = pd.DataFrame(expanded_rows)
+    final_columns = [
+        'city', 'country', 'lat', 'lng', 
+        'Primary_Activity', 'Trip_Pace', 
+        'Cost of Living Index', 'Tourist_Cost_Score', 'Dining_Out_Premium', 'City_Scale',
+        'Travel_Style' 
+    ]
+    
+    augmented_df = augmented_df[final_columns]
+    output_path = CLEANED_DIR / 'smart_travel_dataset_augmented.csv'
+    augmented_df.to_csv(output_path, index=False)
+    print(f"Successfully saved augmented dataset to {output_path}")
 
-# Final Validation
-
-print("--- Data Info ---")
-df.info()
-
-print("\n--- Missing Values Check ---")
-# This will sum up any nulls. We want to see all zeros.
-missing_values = df.isnull().sum()
-print(missing_values[missing_values > 0] if missing_values.any() else "Perfect! No missing values found.")
-
-print("\n--- Quick Look at Data Types ---")
-# Ensuring our indices and temperatures are floats/ints, not strings
-print(df.dtypes)
-
-# Save to the data directory
-df.to_csv(CLEANED_DIR / 'smart_travel_dataset_cleaned.csv', index=False)
-print("Dataset Smart Travel Cleaned saved successfully!")
+# This tells Python to run the async main function when the script is executed
+if __name__ == "__main__":
+    asyncio.run(main())

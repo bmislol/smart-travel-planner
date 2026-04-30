@@ -1,0 +1,865 @@
+city,country,lat,lng,Primary_Activity,Trip_Pace,Cost of Living Index,Tourist_Cost_Score,Dining_Out_Premium,City_Scale,Travel_Style
+Tokyo,Japan,35.687,139.7495,Climbing Mount Fuji from Tokyo base camps,Fast,85.61,68.935,0.5504529176321887,Megacity,Adventure
+Tokyo,Japan,35.687,139.7495,Tea ceremony experience in traditional Asakusa district,Relaxed,85.61,68.935,0.5504529176321887,Megacity,Culture
+Tokyo,Japan,35.687,139.7495,Shopping at Shibuya Crossing and luxury boutiques,Fast,85.61,68.935,0.5504529176321887,Megacity,Luxury
+Tokyo,Japan,35.687,139.7495,Exploring budget ramen shops and izakayas in Shinjuku,Moderate,85.61,68.935,0.5504529176321887,Megacity,Budget
+Tokyo,Japan,35.687,139.7495,Teamlab Borderless digital art museum immersion,Moderate,85.61,68.935,0.5504529176321887,Megacity,Culture
+Tokyo,Japan,35.687,139.7495,Visiting Tokyo Disneyland with family attractions,Fast,85.61,68.935,0.5504529176321887,Megacity,Family
+Tokyo,Japan,35.687,139.7495,Spa and onsen relaxation in Roppongi Hills,Relaxed,85.61,68.935,0.5504529176321887,Megacity,Relaxation
+Tokyo,Japan,35.687,139.7495,Hiking through Meiji Shrine forest and Yoyogi Park,Moderate,85.61,68.935,0.5504529176321887,Megacity,Adventure
+Jakarta,Indonesia,-6.175,106.8275,Explore Kota Tua (Old Town) colonial architecture and museums,Moderate,40.86,32.15,0.5610339875538536,Megacity,Culture
+Jakarta,Indonesia,-6.175,106.8275,Visit Istiqlal Mosque and Cathedral of Jakarta religious landmarks,Relaxed,40.86,32.15,0.5610339875538536,Megacity,Culture
+Jakarta,Indonesia,-6.175,106.8275,Street food tour in Glodok Chinatown,Fast,40.86,32.15,0.5610339875538536,Megacity,Budget
+Jakarta,Indonesia,-6.175,106.8275,Shopping and dining at Grand Indonesia and Plaza Senayan luxury malls,Moderate,40.86,32.15,0.5610339875538536,Megacity,Luxury
+Jakarta,Indonesia,-6.175,106.8275,Ragunan Zoo visit with family,Moderate,40.86,32.15,0.5610339875538536,Megacity,Family
+Jakarta,Indonesia,-6.175,106.8275,Cycling tour through Jakarta's riverside paths and green spaces,Fast,40.86,32.15,0.5610339875538536,Megacity,Adventure
+Jakarta,Indonesia,-6.175,106.8275,Traditional batik workshop in Tanah Abang textile district,Relaxed,40.86,32.15,0.5610339875538536,Megacity,Culture
+Jakarta,Indonesia,-6.175,106.8275,Budget backpacking through hostels and local warungs in Menteng,Fast,40.86,32.15,0.5610339875538536,Megacity,Budget
+Guangzhou,China,23.13,113.26,Canton Tower observation deck and revolving restaurant,Moderate,41.11,34.095,0.6222426470588235,Megacity,Luxury
+Guangzhou,China,23.13,113.26,Liuhua Lake Park cycling and picnicking,Relaxed,41.11,34.095,0.6222426470588235,Megacity,Relaxation
+Guangzhou,China,23.13,113.26,Chen Clan Ancestral Hall traditional crafts workshop,Moderate,41.11,34.095,0.6222426470588235,Megacity,Culture
+Guangzhou,China,23.13,113.26,Shamian Island colonial architecture walking tour,Moderate,41.11,34.095,0.6222426470588235,Megacity,Culture
+Guangzhou,China,23.13,113.26,Guangzhou Children's Park and amusement rides,Fast,41.11,34.095,0.6222426470588235,Megacity,Family
+Guangzhou,China,23.13,113.26,Xiguan Old Street street food exploration and haggling,Fast,41.11,34.095,0.6222426470588235,Megacity,Budget
+Guangzhou,China,23.13,113.26,White Cloud Mountain hiking and cable car adventure,Fast,41.11,34.095,0.6222426470588235,Megacity,Adventure
+Guangzhou,China,23.13,113.26,Pearl River night cruise with dim sum dinner,Relaxed,41.11,34.095,0.6222426470588235,Megacity,Luxury
+Mumbai,India,19.0761,72.8775,Gateway of India and Marine Drive coastal walk,Moderate,29.33,27.25,0.8466195761856711,Megacity,Culture
+Mumbai,India,19.0761,72.8775,Hiking in Sanjay Gandhi National Park,Fast,29.33,27.25,0.8466195761856711,Megacity,Adventure
+Mumbai,India,19.0761,72.8775,Ayurveda spa treatments in Bandra,Relaxed,29.33,27.25,0.8466195761856711,Megacity,Relaxation
+Mumbai,India,19.0761,72.8775,Street food tour in Colaba and Fort district,Moderate,29.33,27.25,0.8466195761856711,Megacity,Budget
+Mumbai,India,19.0761,72.8775,Taj Mahal Palace Hotel high-tea and luxury shopping in Colaba,Relaxed,29.33,27.25,0.8466195761856711,Megacity,Luxury
+Mumbai,India,19.0761,72.8775,Elephanta Caves island ferry excursion,Moderate,29.33,27.25,0.8466195761856711,Megacity,Culture
+Mumbai,India,19.0761,72.8775,Family visit to Essel World amusement park,Fast,29.33,27.25,0.8466195761856711,Megacity,Family
+Mumbai,India,19.0761,72.8775,Dharavi slum tour and local market exploration,Moderate,29.33,27.25,0.8466195761856711,Megacity,Budget
+Manila,Philippines,14.5958,120.9772,Intramuros Walking Tour,Moderate,40.77,32.975,0.6318695106649937,Megacity,Culture
+Manila,Philippines,14.5958,120.9772,Island Hopping to Corregidor,Fast,40.77,32.975,0.6318695106649937,Megacity,Adventure
+Manila,Philippines,14.5958,120.9772,Rizal Park Relaxation and Picnic,Relaxed,40.77,32.975,0.6318695106649937,Megacity,Relaxation
+Manila,Philippines,14.5958,120.9772,Manila Ocean Park Visit,Moderate,40.77,32.975,0.6318695106649937,Megacity,Family
+Manila,Philippines,14.5958,120.9772,Makati CBD Luxury Shopping and Fine Dining,Moderate,40.77,32.975,0.6318695106649937,Megacity,Luxury
+Manila,Philippines,14.5958,120.9772,Quiapo Church and Street Market Exploration,Fast,40.77,32.975,0.6318695106649937,Megacity,Budget
+Manila,Philippines,14.5958,120.9772,National Museum Complex Tour,Moderate,40.77,32.975,0.6318695106649937,Megacity,Culture
+Manila,Philippines,14.5958,120.9772,Kayaking in Laguna de Bay,Fast,40.77,32.975,0.6318695106649937,Megacity,Adventure
+Shanghai,China,31.2286,121.4747,The Bund Waterfront Walk and Historic Building Tours,Moderate,53.9,48.224999999999994,0.7457062740974412,Megacity,Culture
+Shanghai,China,31.2286,121.4747,Yu Garden Classical Chinese Garden Exploration,Relaxed,53.9,48.224999999999994,0.7457062740974412,Megacity,Culture
+Shanghai,China,31.2286,121.4747,Shanghai Tower Observation Deck and Skyline Photography,Fast,53.9,48.224999999999994,0.7457062740974412,Megacity,Luxury
+Shanghai,China,31.2286,121.4747,French Concession District Street Food and Vintage Shopping,Moderate,53.9,48.224999999999994,0.7457062740974412,Megacity,Budget
+Shanghai,China,31.2286,121.4747,Shanghai Disneyland Theme Park Day Visit,Fast,53.9,48.224999999999994,0.7457062740974412,Megacity,Family
+Shanghai,China,31.2286,121.4747,Jing'an Temple and Buddhist Spiritual Retreat,Relaxed,53.9,48.224999999999994,0.7457062740974412,Megacity,Relaxation
+Shanghai,China,31.2286,121.4747,Huangpu River Night Cruise and Pudong District Lights,Moderate,53.9,48.224999999999994,0.7457062740974412,Megacity,Luxury
+Shanghai,China,31.2286,121.4747,Urban Hiking Through Zhujiajiao Water Town and Ancient Canals,Fast,53.9,48.224999999999994,0.7457062740974412,Megacity,Adventure
+Seoul,"Korea, South",37.5667,126.9833,Hiking Namsan Tower and Seoul City Views,Moderate,78.66,62.959999999999994,0.48087098087098085,Megacity,Adventure
+Seoul,"Korea, South",37.5667,126.9833,Traditional Korean Spa Day at Jjimjilbang,Relaxed,78.66,62.959999999999994,0.48087098087098085,Megacity,Relaxation
+Seoul,"Korea, South",37.5667,126.9833,Gyeongbokgung Palace Historical Tour,Moderate,78.66,62.959999999999994,0.48087098087098085,Megacity,Culture
+Seoul,"Korea, South",37.5667,126.9833,Street Food Exploration in Myeongdong,Fast,78.66,62.959999999999994,0.48087098087098085,Megacity,Budget
+Seoul,"Korea, South",37.5667,126.9833,Luxury Shopping and Fine Dining in Gangnam District,Moderate,78.66,62.959999999999994,0.48087098087098085,Megacity,Luxury
+Seoul,"Korea, South",37.5667,126.9833,Bukchon Hanok Village Walking Tour,Relaxed,78.66,62.959999999999994,0.48087098087098085,Megacity,Culture
+Seoul,"Korea, South",37.5667,126.9833,Seoul Children's Grand Park and Amusement Activities,Moderate,78.66,62.959999999999994,0.48087098087098085,Megacity,Family
+Seoul,"Korea, South",37.5667,126.9833,Rock Climbing at Seoul Indoor Climbing Gyms,Fast,78.66,62.959999999999994,0.48087098087098085,Megacity,Adventure
+Mexico City,Mexico,19.4333,-99.1333,Exploring Frida Kahlo's Casa Azul Museum,Moderate,37.41,37.614999999999995,1.066854724964739,Megacity,Culture
+Mexico City,Mexico,19.4333,-99.1333,Hiking Teotihuacan Pyramids,Fast,37.41,37.614999999999995,1.066854724964739,Megacity,Adventure
+Mexico City,Mexico,19.4333,-99.1333,Visiting Chapultepec Castle and Park,Relaxed,37.41,37.614999999999995,1.066854724964739,Megacity,Family
+Mexico City,Mexico,19.4333,-99.1333,Street Food Tour in La Merced Market,Moderate,37.41,37.614999999999995,1.066854724964739,Megacity,Budget
+Mexico City,Mexico,19.4333,-99.1333,Fine Dining at Pujol Restaurant,Relaxed,37.41,37.614999999999995,1.066854724964739,Megacity,Luxury
+Mexico City,Mexico,19.4333,-99.1333,Xochimilco Floating Gardens Boat Tour,Moderate,37.41,37.614999999999995,1.066854724964739,Megacity,Relaxation
+Mexico City,Mexico,19.4333,-99.1333,Rock Climbing at Peña de Bernal,Fast,37.41,37.614999999999995,1.066854724964739,Megacity,Adventure
+Mexico City,Mexico,19.4333,-99.1333,Day Trip to Tepoztlán and Market Exploration,Moderate,37.41,37.614999999999995,1.066854724964739,Megacity,Culture
+Kolkata,India,22.5675,88.37,Victoria Memorial exploration and guided tours,Moderate,25.99,22.439999999999998,0.6689093484419264,Megacity,Culture
+Kolkata,India,22.5675,88.37,Dakshineswar Kali Temple pilgrimage,Relaxed,25.99,22.439999999999998,0.6689093484419264,Megacity,Culture
+Kolkata,India,22.5675,88.37,Street food tour in Chinatown and local markets,Fast,25.99,22.439999999999998,0.6689093484419264,Megacity,Budget
+Kolkata,India,22.5675,88.37,Howrah Bridge walking and photography at sunset,Moderate,25.99,22.439999999999998,0.6689093484419264,Megacity,Culture
+Kolkata,India,22.5675,88.37,Indian Museum and art gallery visits,Moderate,25.99,22.439999999999998,0.6689093484419264,Megacity,Culture
+Kolkata,India,22.5675,88.37,Kolkata bookstore and literary heritage tour,Relaxed,25.99,22.439999999999998,0.6689093484419264,Megacity,Culture
+Kolkata,India,22.5675,88.37,Belur Math monastery visit and spiritual retreat,Relaxed,25.99,22.439999999999998,0.6689093484419264,Megacity,Relaxation
+Kolkata,India,22.5675,88.37,Budget hostel stays with local Bengali cuisine experiences,Fast,25.99,22.439999999999998,0.6689093484419264,Megacity,Budget
+Cairo,Egypt,30.0444,31.2358,Exploring the Great Pyramids of Giza,Moderate,32.39,30.455,0.9933820968303726,Megacity,Culture
+Cairo,Egypt,30.0444,31.2358,Whitewater rafting on the Nile River,Fast,32.39,30.455,0.9933820968303726,Megacity,Adventure
+Cairo,Egypt,30.0444,31.2358,Egyptian Museum artifact viewing and ancient history tours,Relaxed,32.39,30.455,0.9933820968303726,Megacity,Culture
+Cairo,Egypt,30.0444,31.2358,Budget street food tours in Khan El-Khalili bazaar,Moderate,32.39,30.455,0.9933820968303726,Megacity,Budget
+Cairo,Egypt,30.0444,31.2358,Nile River luxury cruise with fine dining,Relaxed,32.39,30.455,0.9933820968303726,Megacity,Luxury
+Cairo,Egypt,30.0444,31.2358,Family visit to Cairo Zoo and Aquarium,Moderate,32.39,30.455,0.9933820968303726,Megacity,Family
+Cairo,Egypt,30.0444,31.2358,Desert camping and stargazing near the Pyramids,Fast,32.39,30.455,0.9933820968303726,Megacity,Adventure
+Cairo,Egypt,30.0444,31.2358,Spa and hammam relaxation at luxury hotels,Relaxed,32.39,30.455,0.9933820968303726,Megacity,Relaxation
+Karachi,Pakistan,24.86,67.01,Mohatta Palace Museum exploration,Moderate,20.75,17.98,0.823051948051948,Megacity,Culture
+Karachi,Pakistan,24.86,67.01,Clifton Beach sunset and water sports,Fast,20.75,17.98,0.823051948051948,Megacity,Adventure
+Karachi,Pakistan,24.86,67.01,Frere Hall historical tour and photography,Relaxed,20.75,17.98,0.823051948051948,Megacity,Culture
+Karachi,Pakistan,24.86,67.01,Street food tour in Saddar and Zamzama,Fast,20.75,17.98,0.823051948051948,Megacity,Budget
+Karachi,Pakistan,24.86,67.01,Chora Bazaar antique shopping and haggling,Moderate,20.75,17.98,0.823051948051948,Megacity,Budget
+Karachi,Pakistan,24.86,67.01,Five-star resort spa and poolside relaxation,Relaxed,20.75,17.98,0.823051948051948,Megacity,Luxury
+Karachi,Pakistan,24.86,67.01,Jinnah Mausoleum and Defence neighbourhood exploration with family,Moderate,20.75,17.98,0.823051948051948,Megacity,Family
+Karachi,Pakistan,24.86,67.01,Manghopir Shrine hiking and spiritual pilgrimage,Fast,20.75,17.98,0.823051948051948,Megacity,Adventure
+Dhaka,Bangladesh,23.7289,90.3944,Exploring the Lalbagh Fort complex and its Mughal architecture,Moderate,35.12,29.765,0.7751667195935218,Megacity,Culture
+Dhaka,Bangladesh,23.7289,90.3944,Shopping at Dhaka's traditional rickshaw markets and street bazaars,Fast,35.12,29.765,0.7751667195935218,Megacity,Budget
+Dhaka,Bangladesh,23.7289,90.3944,Visiting the National Museum to study Bengali art and history,Moderate,35.12,29.765,0.7751667195935218,Megacity,Culture
+Dhaka,Bangladesh,23.7289,90.3944,River cruising on the Buriganga River at sunset,Relaxed,35.12,29.765,0.7751667195935218,Megacity,Relaxation
+Dhaka,Bangladesh,23.7289,90.3944,Fine dining at upscale restaurants in Gulshan and Banani districts,Relaxed,35.12,29.765,0.7751667195935218,Megacity,Luxury
+Dhaka,Bangladesh,23.7289,90.3944,Exploring the Dhaka Zoo and botanical gardens with family,Moderate,35.12,29.765,0.7751667195935218,Megacity,Family
+Dhaka,Bangladesh,23.7289,90.3944,Trekking and nature walks in the surrounding Sundarbans mangrove forests,Fast,35.12,29.765,0.7751667195935218,Megacity,Adventure
+Dhaka,Bangladesh,23.7289,90.3944,Attending traditional Baul music performances and street theater in Old Dhaka,Moderate,35.12,29.765,0.7751667195935218,Megacity,Culture
+Beijing,China,39.9067,116.3975,Great Wall of China hiking at Mutianyu,Moderate,49.53,44.49,0.8322784810126583,Megacity,Adventure
+Beijing,China,39.9067,116.3975,Forbidden City guided tour and imperial history exploration,Moderate,49.53,44.49,0.8322784810126583,Megacity,Culture
+Beijing,China,39.9067,116.3975,Temple of Heaven park meditation and tai chi sessions,Relaxed,49.53,44.49,0.8322784810126583,Megacity,Relaxation
+Beijing,China,39.9067,116.3975,Hutong neighborhood street food tour and local market exploration,Fast,49.53,44.49,0.8322784810126583,Megacity,Budget
+Beijing,China,39.9067,116.3975,Summer Palace classical Chinese garden and lake boat tour,Relaxed,49.53,44.49,0.8322784810126583,Megacity,Culture
+Beijing,China,39.9067,116.3975,Beijing National Stadium and Olympic Park family activities,Moderate,49.53,44.49,0.8322784810126583,Megacity,Family
+Beijing,China,39.9067,116.3975,Michelin-starred restaurant dining and upscale Chaoyang District shopping,Relaxed,49.53,44.49,0.8322784810126583,Megacity,Luxury
+Beijing,China,39.9067,116.3975,Ming Tombs archaeological site visit with budget accommodation and local transport,Fast,49.53,44.49,0.8322784810126583,Megacity,Budget
+Bangkok,Thailand,13.7525,100.4942,Muay Thai Training at Rajadamnern Stadium,Moderate,50.36,38.095,0.5145418326693226,Megacity,Adventure
+Bangkok,Thailand,13.7525,100.4942,Spa and Wellness Retreat in Sukhumvit,Relaxed,50.36,38.095,0.5145418326693226,Megacity,Relaxation
+Bangkok,Thailand,13.7525,100.4942,Grand Palace and Temple of the Emerald Buddha Tour,Moderate,50.36,38.095,0.5145418326693226,Megacity,Culture
+Bangkok,Thailand,13.7525,100.4942,Street Food Exploration in Chinatown (Yaowarat),Fast,50.36,38.095,0.5145418326693226,Megacity,Budget
+Bangkok,Thailand,13.7525,100.4942,Luxury Shopping at Emporium and EmQuartier,Moderate,50.36,38.095,0.5145418326693226,Megacity,Luxury
+Bangkok,Thailand,13.7525,100.4942,Floating Markets and Family Boat Tour,Relaxed,50.36,38.095,0.5145418326693226,Megacity,Family
+Bangkok,Thailand,13.7525,100.4942,Rock Climbing and Adventure Sports at Railay Beach Day Trip,Fast,50.36,38.095,0.5145418326693226,Megacity,Adventure
+Bangkok,Thailand,13.7525,100.4942,Thai Cooking Class in Old City,Moderate,50.36,38.095,0.5145418326693226,Megacity,Culture
+Moscow,Russia,55.7506,37.6175,Red Square and Saint Basil's Cathedral tour,Fast,42.2,43.525000000000006,1.3436189334931097,Megacity,Culture
+Moscow,Russia,55.7506,37.6175,Kremlin Palace and Armory Chamber exploration,Moderate,42.2,43.525000000000006,1.3436189334931097,Megacity,Culture
+Moscow,Russia,55.7506,37.6175,Bolshoi Theatre ballet performance,Relaxed,42.2,43.525000000000006,1.3436189334931097,Megacity,Luxury
+Moscow,Russia,55.7506,37.6175,Moscow Metro station sightseeing and photography,Fast,42.2,43.525000000000006,1.3436189334931097,Megacity,Budget
+Moscow,Russia,55.7506,37.6175,Pushkin State Museum of Fine Arts visit,Moderate,42.2,43.525000000000006,1.3436189334931097,Megacity,Culture
+Moscow,Russia,55.7506,37.6175,Moscow River cruise and waterfront dining,Relaxed,42.2,43.525000000000006,1.3436189334931097,Megacity,Luxury
+Moscow,Russia,55.7506,37.6175,Gorky Park recreation and family activities,Moderate,42.2,43.525000000000006,1.3436189334931097,Megacity,Family
+Moscow,Russia,55.7506,37.6175,Winter sports at Sparrow Hills ski resort,Fast,42.2,43.525000000000006,1.3436189334931097,Megacity,Adventure
+Buenos Aires,Argentina,-34.6036,-58.3814,Tango Show at Café Tortoni,Relaxed,35.25,34.8,1.203573931324457,Megacity,Culture
+Buenos Aires,Argentina,-34.6036,-58.3814,La Boca Neighborhood Street Art Tour,Moderate,35.25,34.8,1.203573931324457,Megacity,Culture
+Buenos Aires,Argentina,-34.6036,-58.3814,Hiking in Parque Centenario,Fast,35.25,34.8,1.203573931324457,Megacity,Adventure
+Buenos Aires,Argentina,-34.6036,-58.3814,Teatro Colón Opera House Performance,Relaxed,35.25,34.8,1.203573931324457,Megacity,Luxury
+Buenos Aires,Argentina,-34.6036,-58.3814,San Telmo Market Vintage Shopping,Moderate,35.25,34.8,1.203573931324457,Megacity,Budget
+Buenos Aires,Argentina,-34.6036,-58.3814,Palermo Soho Café Hopping and Local Cuisine,Moderate,35.25,34.8,1.203573931324457,Megacity,Culture
+Buenos Aires,Argentina,-34.6036,-58.3814,Parque Tres de Febrero Cycling and Picnic,Relaxed,35.25,34.8,1.203573931324457,Megacity,Family
+Buenos Aires,Argentina,-34.6036,-58.3814,Rock Climbing at Costanera Sur Ecological Reserve,Fast,35.25,34.8,1.203573931324457,Megacity,Adventure
+Lagos,Nigeria,6.455,3.3841,Lekki Conservation Centre wildlife exploration,Moderate,37.33,33.46,0.7533095723014256,Megacity,Adventure
+Lagos,Nigeria,6.455,3.3841,National Museum Lagos cultural exhibits,Moderate,37.33,33.46,0.7533095723014256,Megacity,Culture
+Lagos,Nigeria,6.455,3.3841,Lekki Market shopping and haggling,Fast,37.33,33.46,0.7533095723014256,Megacity,Budget
+Lagos,Nigeria,6.455,3.3841,Ikoyi Club beachfront relaxation,Relaxed,37.33,33.46,0.7533095723014256,Megacity,Luxury
+Lagos,Nigeria,6.455,3.3841,Nike Art Gallery contemporary art tour,Moderate,37.33,33.46,0.7533095723014256,Megacity,Culture
+Lagos,Nigeria,6.455,3.3841,Elegushi Beach family swimming and picnic,Relaxed,37.33,33.46,0.7533095723014256,Megacity,Family
+Lagos,Nigeria,6.455,3.3841,Third Mainland Bridge sunset drive and street food,Fast,37.33,33.46,0.7533095723014256,Megacity,Budget
+Lagos,Nigeria,6.455,3.3841,Four Points by Sheraton waterfront dining experience,Relaxed,37.33,33.46,0.7533095723014256,Megacity,Luxury
+Ho Chi Minh City,Vietnam,10.7756,106.7019,Exploring the War Remnants Museum,Moderate,39.01,30.29,0.5404660486093711,Megacity,Culture
+Ho Chi Minh City,Vietnam,10.7756,106.7019,Mekong Delta boat tours and floating markets,Relaxed,39.01,30.29,0.5404660486093711,Megacity,Adventure
+Ho Chi Minh City,Vietnam,10.7756,106.7019,Street food tours in District 1 and Ben Thanh Market,Fast,39.01,30.29,0.5404660486093711,Megacity,Budget
+Ho Chi Minh City,Vietnam,10.7756,106.7019,Luxury spa treatments at high-end wellness centers,Relaxed,39.01,30.29,0.5404660486093711,Megacity,Luxury
+Ho Chi Minh City,Vietnam,10.7756,106.7019,Visiting the Reunification Palace and Notre-Dame Cathedral,Moderate,39.01,30.29,0.5404660486093711,Megacity,Culture
+Ho Chi Minh City,Vietnam,10.7756,106.7019,Family day at Saigon Zoo and Botanical Gardens,Moderate,39.01,30.29,0.5404660486093711,Megacity,Family
+Ho Chi Minh City,Vietnam,10.7756,106.7019,Rooftop bar hopping and nightlife in District 1,Fast,39.01,30.29,0.5404660486093711,Megacity,Luxury
+Ho Chi Minh City,Vietnam,10.7756,106.7019,Cycling through local neighborhoods and street art districts,Moderate,39.01,30.29,0.5404660486093711,Megacity,Adventure
+Istanbul,Turkey,41.0136,28.955,Blue Mosque and Hagia Sophia exploration,Moderate,31.14,26.075000000000003,0.883887252839714,Megacity,Culture
+Istanbul,Turkey,41.0136,28.955,Bosphorus sunset cruise,Relaxed,31.14,26.075000000000003,0.883887252839714,Megacity,Relaxation
+Istanbul,Turkey,41.0136,28.955,Grand Bazaar haggling and shopping,Fast,31.14,26.075000000000003,0.883887252839714,Megacity,Budget
+Istanbul,Turkey,41.0136,28.955,Cappadocia hot air balloon tour from Istanbul,Fast,31.14,26.075000000000003,0.883887252839714,Megacity,Adventure
+Istanbul,Turkey,41.0136,28.955,Topkapi Palace guided tour,Moderate,31.14,26.075000000000003,0.883887252839714,Megacity,Culture
+Istanbul,Turkey,41.0136,28.955,Galata Tower and neighborhood walking tour,Moderate,31.14,26.075000000000003,0.883887252839714,Megacity,Culture
+Istanbul,Turkey,41.0136,28.955,Turkish hammam spa experience in Sultanahmet,Relaxed,31.14,26.075000000000003,0.883887252839714,Megacity,Luxury
+Istanbul,Turkey,41.0136,28.955,Princes Islands ferry day trip with family activities,Moderate,31.14,26.075000000000003,0.883887252839714,Megacity,Family
+Tehran,Iran,35.6889,51.3897,Golestan Palace Tour,Moderate,31.47,28.674999999999997,1.1898850574712643,Megacity,Culture
+Tehran,Iran,35.6889,51.3897,Bazaar-e Bozorg Shopping and Haggling,Relaxed,31.47,28.674999999999997,1.1898850574712643,Megacity,Budget
+Tehran,Iran,35.6889,51.3897,Darband Mountain Hiking,Fast,31.47,28.674999999999997,1.1898850574712643,Megacity,Adventure
+Tehran,Iran,35.6889,51.3897,Carpet Museum of Iran Visit,Moderate,31.47,28.674999999999997,1.1898850574712643,Megacity,Culture
+Tehran,Iran,35.6889,51.3897,Tehran Museum of Contemporary Art,Moderate,31.47,28.674999999999997,1.1898850574712643,Megacity,Luxury
+Tehran,Iran,35.6889,51.3897,Azadi Tower and Park Picnic,Relaxed,31.47,28.674999999999997,1.1898850574712643,Megacity,Family
+Tehran,Iran,35.6889,51.3897,Tochal Ski Resort Day Trip,Fast,31.47,28.674999999999997,1.1898850574712643,Megacity,Adventure
+Tehran,Iran,35.6889,51.3897,Traditional Hammam (Bathhouse) Experience,Relaxed,31.47,28.674999999999997,1.1898850574712643,Megacity,Relaxation
+Rio de Janeiro,Brazil,-22.9111,-43.2056,Hiking to Christ the Redeemer statue,Moderate,36.67,32.905,0.926255562619199,Megacity,Adventure
+Rio de Janeiro,Brazil,-22.9111,-43.2056,Relaxing at Copacabana Beach,Relaxed,36.67,32.905,0.926255562619199,Megacity,Relaxation
+Rio de Janeiro,Brazil,-22.9111,-43.2056,Visiting the Museum of Tomorrow,Moderate,36.67,32.905,0.926255562619199,Megacity,Culture
+Rio de Janeiro,Brazil,-22.9111,-43.2056,Street food tour in Lapa district,Fast,36.67,32.905,0.926255562619199,Megacity,Budget
+Rio de Janeiro,Brazil,-22.9111,-43.2056,Fine dining at Michelin-starred restaurants in Ipanema,Relaxed,36.67,32.905,0.926255562619199,Megacity,Luxury
+Rio de Janeiro,Brazil,-22.9111,-43.2056,Sugarloaf Mountain cable car experience with family,Moderate,36.67,32.905,0.926255562619199,Megacity,Family
+Rio de Janeiro,Brazil,-22.9111,-43.2056,Paragliding from Pedra Bonita,Fast,36.67,32.905,0.926255562619199,Megacity,Adventure
+Rio de Janeiro,Brazil,-22.9111,-43.2056,Exploring colonial architecture in Centro and attending local samba shows,Moderate,36.67,32.905,0.926255562619199,Megacity,Culture
+Lahore,Pakistan,31.5497,74.3436,Badshahi Mosque and Lahore Fort exploration,Moderate,21.53,19.435000000000002,0.9383116883116883,Megacity,Culture
+Lahore,Pakistan,31.5497,74.3436,Walled City bazaar shopping and street food tour,Fast,21.53,19.435000000000002,0.9383116883116883,Megacity,Budget
+Lahore,Pakistan,31.5497,74.3436,Lahore Museum and historical artifacts study,Relaxed,21.53,19.435000000000002,0.9383116883116883,Megacity,Culture
+Lahore,Pakistan,31.5497,74.3436,Thokar Niaz Baig adventure sports and outdoor activities,Fast,21.53,19.435000000000002,0.9383116883116883,Megacity,Adventure
+Lahore,Pakistan,31.5497,74.3436,Jilani Park picnic and family recreation,Relaxed,21.53,19.435000000000002,0.9383116883116883,Megacity,Family
+Lahore,Pakistan,31.5497,74.3436,Avari Hotel luxury dining and spa experience,Relaxed,21.53,19.435000000000002,0.9383116883116883,Megacity,Luxury
+Lahore,Pakistan,31.5497,74.3436,Data Darbar Sufi shrine pilgrimage and spiritual journey,Moderate,21.53,19.435000000000002,0.9383116883116883,Megacity,Culture
+Lahore,Pakistan,31.5497,74.3436,Mall Road shopping and budget accommodation exploration,Fast,21.53,19.435000000000002,0.9383116883116883,Megacity,Budget
+London,United Kingdom,51.5072,-0.1275,Big Ben and Houses of Parliament guided tour,Moderate,85.62,87.515,1.3952871410736578,Megacity,Culture
+London,United Kingdom,51.5072,-0.1275,British Museum exploration,Relaxed,85.62,87.515,1.3952871410736578,Megacity,Culture
+London,United Kingdom,51.5072,-0.1275,West End theatre show,Fast,85.62,87.515,1.3952871410736578,Megacity,Luxury
+London,United Kingdom,51.5072,-0.1275,Hyde Park cycling and picnicking,Relaxed,85.62,87.515,1.3952871410736578,Megacity,Relaxation
+London,United Kingdom,51.5072,-0.1275,Tower of London and Crown Jewels visit,Moderate,85.62,87.515,1.3952871410736578,Megacity,Family
+London,United Kingdom,51.5072,-0.1275,Street art tour in Shoreditch,Fast,85.62,87.515,1.3952871410736578,Megacity,Adventure
+London,United Kingdom,51.5072,-0.1275,Free walking tour of historic neighborhoods,Moderate,85.62,87.515,1.3952871410736578,Megacity,Budget
+London,United Kingdom,51.5072,-0.1275,Michelin-starred dining in Mayfair,Relaxed,85.62,87.515,1.3952871410736578,Megacity,Luxury
+London,United Kingdom,51.5072,-0.1275,British Museum Exploration,Moderate,70.49,74.845,1.2233549582947174,Megacity,Culture
+London,United Kingdom,51.5072,-0.1275,Thames River Cruise,Relaxed,70.49,74.845,1.2233549582947174,Megacity,Relaxation
+London,United Kingdom,51.5072,-0.1275,West End Theatre Show,Fast,70.49,74.845,1.2233549582947174,Megacity,Luxury
+London,United Kingdom,51.5072,-0.1275,Borough Market Food Tour,Moderate,70.49,74.845,1.2233549582947174,Megacity,Budget
+London,United Kingdom,51.5072,-0.1275,Tower of London Historical Tour,Moderate,70.49,74.845,1.2233549582947174,Megacity,Culture
+London,United Kingdom,51.5072,-0.1275,Regent's Park Picnic and Stroll,Relaxed,70.49,74.845,1.2233549582947174,Megacity,Relaxation
+London,United Kingdom,51.5072,-0.1275,London Eye and South Bank Adventure,Fast,70.49,74.845,1.2233549582947174,Megacity,Family
+London,United Kingdom,51.5072,-0.1275,Harrods Shopping and Fine Dining,Moderate,70.49,74.845,1.2233549582947174,Megacity,Luxury
+Paris,France,48.8567,2.3522,Climbing the Eiffel Tower and visiting the summit,Fast,84.35,82.995,0.9759713090257023,Megacity,Adventure
+Paris,France,48.8567,2.3522,Louvre Museum guided tour and art appreciation,Moderate,84.35,82.995,0.9759713090257023,Megacity,Culture
+Paris,France,48.8567,2.3522,Seine River cruise and waterfront dining,Relaxed,84.35,82.995,0.9759713090257023,Megacity,Luxury
+Paris,France,48.8567,2.3522,Montmartre street exploration and local cafés,Moderate,84.35,82.995,0.9759713090257023,Megacity,Budget
+Paris,France,48.8567,2.3522,Notre-Dame Cathedral and Île de la Cité walking tour,Moderate,84.35,82.995,0.9759713090257023,Megacity,Culture
+Paris,France,48.8567,2.3522,Disneyland Paris theme park visit,Fast,84.35,82.995,0.9759713090257023,Megacity,Family
+Paris,France,48.8567,2.3522,Versailles Palace gardens and palace exploration,Relaxed,84.35,82.995,0.9759713090257023,Megacity,Luxury
+Paris,France,48.8567,2.3522,Latin Quarter student district and budget bistro hopping,Moderate,84.35,82.995,0.9759713090257023,Megacity,Budget
+Lima,Peru,-12.06,-77.0375,Hiking Machu Picchu via Sacred Valley,Moderate,34.6,30.025,0.7670283303194696,Megacity,Adventure
+Lima,Peru,-12.06,-77.0375,Visiting Museo Larco pre-Columbian art collection,Relaxed,34.6,30.025,0.7670283303194696,Megacity,Culture
+Lima,Peru,-12.06,-77.0375,Dining at Central restaurant in Miraflores,Fast,34.6,30.025,0.7670283303194696,Megacity,Luxury
+Lima,Peru,-12.06,-77.0375,Exploring Barranco bohemian district street art and cafes,Moderate,34.6,30.025,0.7670283303194696,Megacity,Culture
+Lima,Peru,-12.06,-77.0375,Budget market hopping at Mercado Central and local markets,Fast,34.6,30.025,0.7670283303194696,Megacity,Budget
+Lima,Peru,-12.06,-77.0375,Paragliding over Lima's coastal cliffs in Miraflores,Fast,34.6,30.025,0.7670283303194696,Megacity,Adventure
+Lima,Peru,-12.06,-77.0375,Family visit to Lima Zoo and Parque de la Reserva fountain show,Moderate,34.6,30.025,0.7670283303194696,Megacity,Family
+Lima,Peru,-12.06,-77.0375,Spa and wellness retreat at luxury hotel in San Isidro,Relaxed,34.6,30.025,0.7670283303194696,Megacity,Luxury
+Kuala Lumpur,Malaysia,3.1686,101.698,Petronas Twin Towers observation deck visit,Fast,39.25,31.96,0.6005355404089582,Large,Luxury
+Kuala Lumpur,Malaysia,3.1686,101.698,Batu Caves temple exploration and rock climbing,Moderate,39.25,31.96,0.6005355404089582,Large,Adventure
+Kuala Lumpur,Malaysia,3.1686,101.698,Islamic Arts Museum Malaysia tour,Moderate,39.25,31.96,0.6005355404089582,Large,Culture
+Kuala Lumpur,Malaysia,3.1686,101.698,Bukit Bintang street food and night market hopping,Fast,39.25,31.96,0.6005355404089582,Large,Budget
+Kuala Lumpur,Malaysia,3.1686,101.698,Perdana Botanical Garden leisurely walk and picnic,Relaxed,39.25,31.96,0.6005355404089582,Large,Relaxation
+Kuala Lumpur,Malaysia,3.1686,101.698,Sunway Lagoon theme park with family attractions,Moderate,39.25,31.96,0.6005355404089582,Large,Family
+Kuala Lumpur,Malaysia,3.1686,101.698,Menara Kuala Lumpur tower dining and sunset viewing,Relaxed,39.25,31.96,0.6005355404089582,Large,Luxury
+Kuala Lumpur,Malaysia,3.1686,101.698,Chinatown (Petaling Street) budget shopping and local cuisine,Fast,39.25,31.96,0.6005355404089582,Large,Budget
+Hanoi,Vietnam,21.0,105.85,Halong Bay Cruise,Moderate,36.85,28.03,0.49689601655457843,Large,Adventure
+Hanoi,Vietnam,21.0,105.85,Old Quarter Street Food Tour,Fast,36.85,28.03,0.49689601655457843,Large,Budget
+Hanoi,Vietnam,21.0,105.85,Temple of Literature Visit,Relaxed,36.85,28.03,0.49689601655457843,Large,Culture
+Hanoi,Vietnam,21.0,105.85,Hoan Kiem Lake Sunset Walk,Relaxed,36.85,28.03,0.49689601655457843,Large,Relaxation
+Hanoi,Vietnam,21.0,105.85,Ho Tay Water Puppet Theatre,Moderate,36.85,28.03,0.49689601655457843,Large,Culture
+Hanoi,Vietnam,21.0,105.85,Sofitel Legend Metropole Luxury Stay,Relaxed,36.85,28.03,0.49689601655457843,Large,Luxury
+Hanoi,Vietnam,21.0,105.85,Hanoi Night Market Exploration,Fast,36.85,28.03,0.49689601655457843,Large,Budget
+Hanoi,Vietnam,21.0,105.85,Vietnam National Museum with Family,Moderate,36.85,28.03,0.49689601655457843,Large,Family
+Dar es Salaam,Tanzania,-6.8161,39.2803,Zanzibar Stone Town Ferry and Spice Market Tour,Moderate,33.97,28.064999999999998,0.7113964686998395,Large,Culture
+Dar es Salaam,Tanzania,-6.8161,39.2803,Dar es Salaam National Museum Visit,Moderate,33.97,28.064999999999998,0.7113964686998395,Large,Culture
+Dar es Salaam,Tanzania,-6.8161,39.2803,Kilwa Kisiwani Historical Ruins Day Trip,Fast,33.97,28.064999999999998,0.7113964686998395,Large,Adventure
+Dar es Salaam,Tanzania,-6.8161,39.2803,Beaches at Coco Beach and Water Sports,Relaxed,33.97,28.064999999999998,0.7113964686998395,Large,Relaxation
+Dar es Salaam,Tanzania,-6.8161,39.2803,Street Food Tour in Kariakoo Market,Moderate,33.97,28.064999999999998,0.7113964686998395,Large,Budget
+Dar es Salaam,Tanzania,-6.8161,39.2803,Serengeti Safari Expedition from Dar es Salaam,Fast,33.97,28.064999999999998,0.7113964686998395,Large,Adventure
+Dar es Salaam,Tanzania,-6.8161,39.2803,Luxury Waterfront Dining and Harbor Sunset Cruise,Relaxed,33.97,28.064999999999998,0.7113964686998395,Large,Luxury
+Dar es Salaam,Tanzania,-6.8161,39.2803,Dar es Salaam Zoo and Botanical Gardens Family Day,Moderate,33.97,28.064999999999998,0.7113964686998395,Large,Family
+Johannesburg,South Africa,-26.2044,28.0456,Apartheid Museum Tour,Moderate,44.87,43.019999999999996,1.158413055711874,Large,Culture
+Johannesburg,South Africa,-26.2044,28.0456,Soweto Township Walking Tour,Moderate,44.87,43.019999999999996,1.158413055711874,Large,Culture
+Johannesburg,South Africa,-26.2044,28.0456,Lion and Safari Park Adventure,Fast,44.87,43.019999999999996,1.158413055711874,Large,Adventure
+Johannesburg,South Africa,-26.2044,28.0456,Sandton Shopping and Fine Dining,Relaxed,44.87,43.019999999999996,1.158413055711874,Large,Luxury
+Johannesburg,South Africa,-26.2044,28.0456,Cradle of Humankind UNESCO Site Exploration,Moderate,44.87,43.019999999999996,1.158413055711874,Large,Culture
+Johannesburg,South Africa,-26.2044,28.0456,Hiking at Melville Koppies Nature Reserve,Fast,44.87,43.019999999999996,1.158413055711874,Large,Adventure
+Johannesburg,South Africa,-26.2044,28.0456,Budget Backpacker Hostel Stay in Maboneng Precinct,Moderate,44.87,43.019999999999996,1.158413055711874,Large,Budget
+Johannesburg,South Africa,-26.2044,28.0456,Gold Reef City Theme Park Family Day,Fast,44.87,43.019999999999996,1.158413055711874,Large,Family
+Hong Kong,Hong Kong,22.3,114.2,Victoria Peak Hike and Skyline Views,Moderate,80.71,69.645,0.6914542020774316,Large,Adventure
+Hong Kong,Hong Kong,22.3,114.2,Star Ferry Crossing and Harbor Cruise,Relaxed,80.71,69.645,0.6914542020774316,Large,Relaxation
+Hong Kong,Hong Kong,22.3,114.2,Wong Tai Sin Temple and Traditional Chinese Culture,Moderate,80.71,69.645,0.6914542020774316,Large,Culture
+Hong Kong,Hong Kong,22.3,114.2,Street Food Tour in Mong Kok and Temple Street Night Market,Fast,80.71,69.645,0.6914542020774316,Large,Budget
+Hong Kong,Hong Kong,22.3,114.2,Michelin-Star Dining and Luxury Shopping on Canton Road,Relaxed,80.71,69.645,0.6914542020774316,Large,Luxury
+Hong Kong,Hong Kong,22.3,114.2,Disneyland Hong Kong and Ocean Park Theme Parks,Fast,80.71,69.645,0.6914542020774316,Large,Family
+Hong Kong,Hong Kong,22.3,114.2,Traditional Chinese Junk Boat Sunset Cruise in Victoria Harbour,Relaxed,80.71,69.645,0.6914542020774316,Large,Relaxation
+Hong Kong,Hong Kong,22.3,114.2,Hong Kong Museum of History and Cultural Heritage Walking Tour,Moderate,80.71,69.645,0.6914542020774316,Large,Culture
+Riyadh,Saudi Arabia,24.65,46.71,Kingdom Centre Tower observation deck visit,Fast,53.85,48.519999999999996,0.9901421366345713,Large,Luxury
+Riyadh,Saudi Arabia,24.65,46.71,Al Diriyah UNESCO heritage site exploration,Moderate,53.85,48.519999999999996,0.9901421366345713,Large,Culture
+Riyadh,Saudi Arabia,24.65,46.71,Edge of the World desert adventure trek,Fast,53.85,48.519999999999996,0.9901421366345713,Large,Adventure
+Riyadh,Saudi Arabia,24.65,46.71,King Fahd Road shopping and dining experience,Relaxed,53.85,48.519999999999996,0.9901421366345713,Large,Luxury
+Riyadh,Saudi Arabia,24.65,46.71,Riyadh National Museum cultural tour,Moderate,53.85,48.519999999999996,0.9901421366345713,Large,Culture
+Riyadh,Saudi Arabia,24.65,46.71,Al Bujairi District traditional souk exploration,Moderate,53.85,48.519999999999996,0.9901421366345713,Large,Budget
+Riyadh,Saudi Arabia,24.65,46.71,Riyadh Zoo family day visit,Moderate,53.85,48.519999999999996,0.9901421366345713,Large,Family
+Riyadh,Saudi Arabia,24.65,46.71,Wadi Hanifah nature reserve hiking,Fast,53.85,48.519999999999996,0.9901421366345713,Large,Adventure
+Santiago,Chile,-33.4372,-70.6506,Hiking in San Cristóbal Hill (Cerro San Cristóbal),Moderate,45.64,46.78,1.1944167497507479,Large,Adventure
+Santiago,Chile,-33.4372,-70.6506,Visiting La Moneda Palace and Chilean National History Museum,Moderate,45.64,46.78,1.1944167497507479,Large,Culture
+Santiago,Chile,-33.4372,-70.6506,Exploring Lastarria neighborhood bohemian cafes and street art,Relaxed,45.64,46.78,1.1944167497507479,Large,Culture
+Santiago,Chile,-33.4372,-70.6506,Day trip to Maipo Valley wine tours and tastings,Moderate,45.64,46.78,1.1944167497507479,Large,Luxury
+Santiago,Chile,-33.4372,-70.6506,Budget street food tour in Barrio Brasil,Fast,45.64,46.78,1.1944167497507479,Large,Budget
+Santiago,Chile,-33.4372,-70.6506,Family visit to Santiago Zoo in Parque Metropolitano,Moderate,45.64,46.78,1.1944167497507479,Large,Family
+Santiago,Chile,-33.4372,-70.6506,Spa and wellness retreat in upscale Vitacura district,Relaxed,45.64,46.78,1.1944167497507479,Large,Relaxation
+Santiago,Chile,-33.4372,-70.6506,Rock climbing and mountaineering at nearby Cajón del Maipo,Fast,45.64,46.78,1.1944167497507479,Large,Adventure
+Surabaya,Indonesia,-7.2458,112.7378,House of Sampoerna Museum Tour,Moderate,34.65,26.115,0.4701791922974057,Large,Culture
+Surabaya,Indonesia,-7.2458,112.7378,Tanjung Perak Port Harbor Exploration,Fast,34.65,26.115,0.4701791922974057,Large,Adventure
+Surabaya,Indonesia,-7.2458,112.7378,Jembatan Merah (Red Bridge) Street Food Tour,Relaxed,34.65,26.115,0.4701791922974057,Large,Budget
+Surabaya,Indonesia,-7.2458,112.7378,Submarine Monument (KRI Pasopati) Visit,Fast,34.65,26.115,0.4701791922974057,Large,Adventure
+Surabaya,Indonesia,-7.2458,112.7378,Taman Bungkul Park Relaxation and Local Cafe Hopping,Relaxed,34.65,26.115,0.4701791922974057,Large,Relaxation
+Surabaya,Indonesia,-7.2458,112.7378,Masjid Al-Akbar Grand Mosque Architectural Tour,Moderate,34.65,26.115,0.4701791922974057,Large,Culture
+Surabaya,Indonesia,-7.2458,112.7378,Kebun Binatang Surabaya Zoo with Family Activities,Moderate,34.65,26.115,0.4701791922974057,Large,Family
+Surabaya,Indonesia,-7.2458,112.7378,Five-Star Hotel Spa and Fine Dining Experience,Relaxed,34.65,26.115,0.4701791922974057,Large,Luxury
+Madrid,Spain,40.4169,-3.7033,Prado Museum exploration,Moderate,59.01,60.66,1.268009768009768,Large,Culture
+Madrid,Spain,40.4169,-3.7033,Royal Palace guided tour,Fast,59.01,60.66,1.268009768009768,Large,Luxury
+Madrid,Spain,40.4169,-3.7033,Retiro Park picnicking and rowing,Relaxed,59.01,60.66,1.268009768009768,Large,Relaxation
+Madrid,Spain,40.4169,-3.7033,Flamenco dancing at Corral de la Morería,Moderate,59.01,60.66,1.268009768009768,Large,Culture
+Madrid,Spain,40.4169,-3.7033,Budget tapas hopping in La Latina neighborhood,Moderate,59.01,60.66,1.268009768009768,Large,Budget
+Madrid,Spain,40.4169,-3.7033,Reina Sofía Museum and Guernica viewing,Moderate,59.01,60.66,1.268009768009768,Large,Culture
+Madrid,Spain,40.4169,-3.7033,Family day at Zoo Aquarium Madrid,Moderate,59.01,60.66,1.268009768009768,Large,Family
+Madrid,Spain,40.4169,-3.7033,Urban rock climbing at Madrid climbing gyms and outdoor sites,Fast,59.01,60.66,1.268009768009768,Large,Adventure
+Baghdad,Iraq,33.3153,44.3661,Al-Askari Mosque restoration and Islamic architecture tour,Moderate,34.81,30.450000000000003,0.8565331582403152,Large,Culture
+Baghdad,Iraq,33.3153,44.3661,Baghdad Museum exploration and Mesopotamian artifact viewing,Moderate,34.81,30.450000000000003,0.8565331582403152,Large,Culture
+Baghdad,Iraq,33.3153,44.3661,Tigris River evening boat cruise and waterfront dining,Relaxed,34.81,30.450000000000003,0.8565331582403152,Large,Relaxation
+Baghdad,Iraq,33.3153,44.3661,Street food tour through Al-Rasheed Street and local markets,Fast,34.81,30.450000000000003,0.8565331582403152,Large,Budget
+Baghdad,Iraq,33.3153,44.3661,Green Zone historical walking tour and government district exploration,Moderate,34.81,30.450000000000003,0.8565331582403152,Large,Culture
+Baghdad,Iraq,33.3153,44.3661,Al-Mutanabbi Street book market and literary heritage experience,Moderate,34.81,30.450000000000003,0.8565331582403152,Large,Culture
+Baghdad,Iraq,33.3153,44.3661,Luxury hotel dining and upscale shopping in central Baghdad,Relaxed,34.81,30.450000000000003,0.8565331582403152,Large,Luxury
+Baghdad,Iraq,33.3153,44.3661,Family visit to Baghdad Zoo and Al-Zawraa Park recreational areas,Moderate,34.81,30.450000000000003,0.8565331582403152,Large,Family
+Singapore,Singapore,1.3,103.8,Gardens by the Bay night light show,Moderate,83.98,72.575,0.7935910742086144,Large,Family
+Singapore,Singapore,1.3,103.8,Marina Bay Sands rooftop infinity pool experience,Relaxed,83.98,72.575,0.7935910742086144,Large,Luxury
+Singapore,Singapore,1.3,103.8,Singapore Botanic Gardens walking tour,Relaxed,83.98,72.575,0.7935910742086144,Large,Relaxation
+Singapore,Singapore,1.3,103.8,Thian Hock Keng Temple and Chinatown heritage exploration,Moderate,83.98,72.575,0.7935910742086144,Large,Culture
+Singapore,Singapore,1.3,103.8,Sentosa Island adventure park and zipline experiences,Fast,83.98,72.575,0.7935910742086144,Large,Adventure
+Singapore,Singapore,1.3,103.8,Hawker center food tours in Maxwell and Lau Pa Sat,Moderate,83.98,72.575,0.7935910742086144,Large,Budget
+Singapore,Singapore,1.3,103.8,ArtScience Museum and cultural district visits,Moderate,83.98,72.575,0.7935910742086144,Large,Culture
+Singapore,Singapore,1.3,103.8,Universal Studios Singapore theme park day,Fast,83.98,72.575,0.7935910742086144,Large,Family
+Ankara,Turkey,39.93,32.85,Mausoleum of Atatürk (Anıtkabir) guided tour,Moderate,27.17,22.57,0.838544097060196,Large,Culture
+Ankara,Turkey,39.93,32.85,Ankara Castle exploration and panoramic city views,Fast,27.17,22.57,0.838544097060196,Large,Adventure
+Ankara,Turkey,39.93,32.85,Museum of Anatolian Civilizations artifact study,Relaxed,27.17,22.57,0.838544097060196,Large,Culture
+Ankara,Turkey,39.93,32.85,Budget street food tour in Ulus district,Moderate,27.17,22.57,0.838544097060196,Large,Budget
+Ankara,Turkey,39.93,32.85,Kocatepe Mosque visit and Islamic architecture appreciation,Relaxed,27.17,22.57,0.838544097060196,Large,Culture
+Ankara,Turkey,39.93,32.85,Ankara Zoo family day with children's activities,Moderate,27.17,22.57,0.838544097060196,Large,Family
+Ankara,Turkey,39.93,32.85,Luxury spa and wellness retreat at upscale hotel,Relaxed,27.17,22.57,0.838544097060196,Large,Luxury
+Ankara,Turkey,39.93,32.85,Hiking in Eymir Lake nature reserve and picnicking,Fast,27.17,22.57,0.838544097060196,Large,Adventure
+Addis Ababa,Ethiopia,9.03,38.74,Visiting the National Museum of Ethiopia to see Lucy fossil,Moderate,50.49,35.97,0.5833559967364699,Large,Culture
+Addis Ababa,Ethiopia,9.03,38.74,Hiking in the Entoto Mountains,Fast,50.49,35.97,0.5833559967364699,Large,Adventure
+Addis Ababa,Ethiopia,9.03,38.74,Exploring the historic churches of Addis Ababa including St. George Cathedral,Moderate,50.49,35.97,0.5833559967364699,Large,Culture
+Addis Ababa,Ethiopia,9.03,38.74,Budget accommodation in Piazza district with street food exploration,Relaxed,50.49,35.97,0.5833559967364699,Large,Budget
+Addis Ababa,Ethiopia,9.03,38.74,Shopping at Merkato open-air market,Moderate,50.49,35.97,0.5833559967364699,Large,Budget
+Addis Ababa,Ethiopia,9.03,38.74,Fine dining at Addis Red Sea Restaurant with Ethiopian cuisine,Relaxed,50.49,35.97,0.5833559967364699,Large,Luxury
+Addis Ababa,Ethiopia,9.03,38.74,Day trip to Addis Ababa Zoo with family,Moderate,50.49,35.97,0.5833559967364699,Large,Family
+Addis Ababa,Ethiopia,9.03,38.74,Rock climbing and trekking in the Simien Mountains via Addis Ababa base,Fast,50.49,35.97,0.5833559967364699,Large,Adventure
+Toronto,Canada,43.7417,-79.3733,Niagara Falls Day Tour from Toronto,Fast,74.29,74.325,1.0636532684880562,Large,Adventure
+Toronto,Canada,43.7417,-79.3733,CN Tower Observation Deck Visit,Moderate,74.29,74.325,1.0636532684880562,Large,Luxury
+Toronto,Canada,43.7417,-79.3733,Royal Ontario Museum (ROM) Exploration,Moderate,74.29,74.325,1.0636532684880562,Large,Culture
+Toronto,Canada,43.7417,-79.3733,Toronto Islands Bike Tour and Beach Day,Relaxed,74.29,74.325,1.0636532684880562,Large,Relaxation
+Toronto,Canada,43.7417,-79.3733,Distillery District Walking and Shopping,Moderate,74.29,74.325,1.0636532684880562,Large,Culture
+Toronto,Canada,43.7417,-79.3733,Casa Loma Castle Tour and Photography,Moderate,74.29,74.325,1.0636532684880562,Large,Family
+Toronto,Canada,43.7417,-79.3733,Kensington Market and Chinatown Street Food Tour,Fast,74.29,74.325,1.0636532684880562,Large,Budget
+Toronto,Canada,43.7417,-79.3733,St. Lawrence Market and Harbourfront Fine Dining Experience,Relaxed,74.29,74.325,1.0636532684880562,Large,Luxury
+Saint Petersburg,Russia,59.9375,30.3086,Winter Palace Museum Tour,Moderate,37.81,37.135000000000005,1.127745128363749,Large,Culture
+Saint Petersburg,Russia,59.9375,30.3086,Hermitage Collection Deep Dive,Relaxed,37.81,37.135000000000005,1.127745128363749,Large,Culture
+Saint Petersburg,Russia,59.9375,30.3086,Church of the Savior on Spilled Blood Visit,Fast,37.81,37.135000000000005,1.127745128363749,Large,Culture
+Saint Petersburg,Russia,59.9375,30.3086,Peterhof Palace and Gardens Exploration,Moderate,37.81,37.135000000000005,1.127745128363749,Large,Luxury
+Saint Petersburg,Russia,59.9375,30.3086,Budget Hostel Hopping and Local Cafes,Fast,37.81,37.135000000000005,1.127745128363749,Large,Budget
+Saint Petersburg,Russia,59.9375,30.3086,Neva River Cruise and Canal Boat Tours,Relaxed,37.81,37.135000000000005,1.127745128363749,Large,Relaxation
+Saint Petersburg,Russia,59.9375,30.3086,Catherine Palace Day Trip with Family,Moderate,37.81,37.135000000000005,1.127745128363749,Large,Family
+Saint Petersburg,Russia,59.9375,30.3086,Kayaking the Neva River and Nearby Waterways,Fast,37.81,37.135000000000005,1.127745128363749,Large,Adventure
+Nairobi,Kenya,-1.2864,36.8172,Safari at Nairobi National Park,Moderate,35.88,33.25,0.9494573643410853,Large,Adventure
+Nairobi,Kenya,-1.2864,36.8172,Giraffe Centre Visit,Relaxed,35.88,33.25,0.9494573643410853,Large,Family
+Nairobi,Kenya,-1.2864,36.8172,Karen Blixen Museum Tour,Moderate,35.88,33.25,0.9494573643410853,Large,Culture
+Nairobi,Kenya,-1.2864,36.8172,David Sheldrick Wildlife Trust Elephant Sanctuary,Relaxed,35.88,33.25,0.9494573643410853,Large,Family
+Nairobi,Kenya,-1.2864,36.8172,Nairobi National Museum Exploration,Moderate,35.88,33.25,0.9494573643410853,Large,Culture
+Nairobi,Kenya,-1.2864,36.8172,Street Food Tour in Eastleigh and River Road Markets,Fast,35.88,33.25,0.9494573643410853,Large,Budget
+Nairobi,Kenya,-1.2864,36.8172,Luxury Spa and Fine Dining at Serena or Safari Park Hotel,Relaxed,35.88,33.25,0.9494573643410853,Large,Luxury
+Nairobi,Kenya,-1.2864,36.8172,Kibera Community Walking Tour,Moderate,35.88,33.25,0.9494573643410853,Large,Budget
+Guadalajara,Mexico,20.6767,-103.3475,Explore Cathedral Metropolitana and historic downtown plazas,Moderate,34.05,32.855,0.9284457478005865,Large,Culture
+Guadalajara,Mexico,20.6767,-103.3475,Visit Museo de las Artes and local art galleries,Relaxed,34.05,32.855,0.9284457478005865,Large,Culture
+Guadalajara,Mexico,20.6767,-103.3475,Tour Tlaquepaque artisan markets and pottery workshops,Moderate,34.05,32.855,0.9284457478005865,Large,Budget
+Guadalajara,Mexico,20.6767,-103.3475,Day trip hiking to Barranca de Huentitán canyon,Fast,34.05,32.855,0.9284457478005865,Large,Adventure
+Guadalajara,Mexico,20.6767,-103.3475,Attend traditional Mariachi performances at El Hospicio,Relaxed,34.05,32.855,0.9284457478005865,Large,Culture
+Guadalajara,Mexico,20.6767,-103.3475,Stay at luxury hotels and dine at upscale restaurants in Chapultepec,Relaxed,34.05,32.855,0.9284457478005865,Large,Luxury
+Guadalajara,Mexico,20.6767,-103.3475,Visit Parque Agua Caliente water park and family attractions,Moderate,34.05,32.855,0.9284457478005865,Large,Family
+Guadalajara,Mexico,20.6767,-103.3475,Explore budget-friendly street food markets and local taquerias,Fast,34.05,32.855,0.9284457478005865,Large,Budget
+Belo Horizonte,Brazil,-19.9281,-43.9419,Exploring Pampulha Architectural Complex,Moderate,32.5,27.195,0.8724591470705461,Large,Culture
+Belo Horizonte,Brazil,-19.9281,-43.9419,Hiking in Serra do Curral,Fast,32.5,27.195,0.8724591470705461,Large,Adventure
+Belo Horizonte,Brazil,-19.9281,-43.9419,Visiting Inhotim Contemporary Art Museum,Relaxed,32.5,27.195,0.8724591470705461,Large,Culture
+Belo Horizonte,Brazil,-19.9281,-43.9419,Street food tour in Savassi neighborhood,Moderate,32.5,27.195,0.8724591470705461,Large,Budget
+Belo Horizonte,Brazil,-19.9281,-43.9419,Fine dining at upscale restaurants in Funcionários,Relaxed,32.5,27.195,0.8724591470705461,Large,Luxury
+Belo Horizonte,Brazil,-19.9281,-43.9419,Family day at Parque Municipal das Mangabeiras,Moderate,32.5,27.195,0.8724591470705461,Large,Family
+Belo Horizonte,Brazil,-19.9281,-43.9419,Exploring historic Igreja de São Francisco de Assis,Moderate,32.5,27.195,0.8724591470705461,Large,Culture
+Belo Horizonte,Brazil,-19.9281,-43.9419,Budget hostel hopping and local market visits,Fast,32.5,27.195,0.8724591470705461,Large,Budget
+Monterrey,Mexico,25.6844,-100.3181,Hiking in Barrio Antiguo and Cerro de la Silla viewpoint,Moderate,38.46,37.5,0.9751801441152922,Large,Adventure
+Monterrey,Mexico,25.6844,-100.3181,Visiting MARCO (Museum of Contemporary Art),Moderate,38.46,37.5,0.9751801441152922,Large,Culture
+Monterrey,Mexico,25.6844,-100.3181,Exploring Macroplaza and colonial architecture,Relaxed,38.46,37.5,0.9751801441152922,Large,Culture
+Monterrey,Mexico,25.6844,-100.3181,Budget street food tour in Barrio Antiguo,Fast,38.46,37.5,0.9751801441152922,Large,Budget
+Monterrey,Mexico,25.6844,-100.3181,Luxury dining at high-end restaurants in Zona Rosa,Relaxed,38.46,37.5,0.9751801441152922,Large,Luxury
+Monterrey,Mexico,25.6844,-100.3181,Family visit to Parque Fundidora with recreational activities,Moderate,38.46,37.5,0.9751801441152922,Large,Family
+Monterrey,Mexico,25.6844,-100.3181,Spa and wellness retreat at upscale hotel spa,Relaxed,38.46,37.5,0.9751801441152922,Large,Relaxation
+Monterrey,Mexico,25.6844,-100.3181,Rock climbing and adventure sports at nearby canyons,Fast,38.46,37.5,0.9751801441152922,Large,Adventure
+Melbourne,Australia,-37.8142,144.9631,Great Ocean Road scenic drive to Twelve Apostles,Moderate,76.76,75.72,0.9601439958858319,Large,Adventure
+Melbourne,Australia,-37.8142,144.9631,Yarra River relaxation and wine tasting in Yarra Valley,Relaxed,76.76,75.72,0.9601439958858319,Large,Relaxation
+Melbourne,Australia,-37.8142,144.9631,National Gallery of Victoria art museum exploration,Moderate,76.76,75.72,0.9601439958858319,Large,Culture
+Melbourne,Australia,-37.8142,144.9631,Street art and laneways walking tour in CBD,Fast,76.76,75.72,0.9601439958858319,Large,Budget
+Melbourne,Australia,-37.8142,144.9631,Fine dining at Quay Melbourne with harbour views,Relaxed,76.76,75.72,0.9601439958858319,Large,Luxury
+Melbourne,Australia,-37.8142,144.9631,Melbourne Zoo and Royal Botanic Gardens family day,Moderate,76.76,75.72,0.9601439958858319,Large,Family
+Melbourne,Australia,-37.8142,144.9631,Dandenong Ranges hiking and mountain village exploration,Moderate,76.76,75.72,0.9601439958858319,Large,Adventure
+Melbourne,Australia,-37.8142,144.9631,Queen Victoria Market food and culture immersion,Fast,76.76,75.72,0.9601439958858319,Large,Culture
+Abidjan,Côte d’Ivoire,5.3364,-4.0267,Visiting Basilique de Notre-Dame de la Paix,Moderate,47.06,39.64,0.7991071428571428,Large,Culture
+Abidjan,Côte d’Ivoire,5.3364,-4.0267,Exploring Plateau District colonial architecture and museums,Moderate,47.06,39.64,0.7991071428571428,Large,Culture
+Abidjan,Côte d’Ivoire,5.3364,-4.0267,Beach relaxation at Assinie-Mafia coastal resort,Relaxed,47.06,39.64,0.7991071428571428,Large,Relaxation
+Abidjan,Côte d’Ivoire,5.3364,-4.0267,Lagoon boat tours and water sports at Ébrié Lagoon,Fast,47.06,39.64,0.7991071428571428,Large,Adventure
+Abidjan,Côte d’Ivoire,5.3364,-4.0267,Street food tasting and market exploration in Treichville,Fast,47.06,39.64,0.7991071428571428,Large,Budget
+Abidjan,Côte d’Ivoire,5.3364,-4.0267,Luxury dining and shopping at Cocody upscale district,Relaxed,47.06,39.64,0.7991071428571428,Large,Luxury
+Abidjan,Côte d’Ivoire,5.3364,-4.0267,Visiting Parc du Banco national park for hiking and wildlife,Moderate,47.06,39.64,0.7991071428571428,Large,Adventure
+Abidjan,Côte d’Ivoire,5.3364,-4.0267,Family day at Abidjan Zoo and local amusement attractions,Moderate,47.06,39.64,0.7991071428571428,Large,Family
+Alexandria,Egypt,31.1975,29.8925,Exploring the Catacombs of Kom el Shoqafa,Moderate,28.43,25.605,0.8335162824734724,Large,Culture
+Alexandria,Egypt,31.1975,29.8925,Swimming and sunbathing at Montaza Beach,Relaxed,28.43,25.605,0.8335162824734724,Large,Relaxation
+Alexandria,Egypt,31.1975,29.8925,Visiting the Alexandria National Museum,Moderate,28.43,25.605,0.8335162824734724,Large,Culture
+Alexandria,Egypt,31.1975,29.8925,Scuba diving in the Mediterranean Sea,Fast,28.43,25.605,0.8335162824734724,Large,Adventure
+Alexandria,Egypt,31.1975,29.8925,Walking through the Bibliotheca Alexandrina,Moderate,28.43,25.605,0.8335162824734724,Large,Culture
+Alexandria,Egypt,31.1975,29.8925,Budget street food tour in local markets,Fast,28.43,25.605,0.8335162824734724,Large,Budget
+Alexandria,Egypt,31.1975,29.8925,Fine dining at waterfront restaurants with sea views,Relaxed,28.43,25.605,0.8335162824734724,Large,Luxury
+Alexandria,Egypt,31.1975,29.8925,Family visit to the Aquarium and underwater museum,Moderate,28.43,25.605,0.8335162824734724,Large,Family
+Sydney,Australia,-33.8667,151.2,Sydney Opera House guided tour and performance,Moderate,83.21,78.13499999999999,0.917263025737602,Large,Culture
+Sydney,Australia,-33.8667,151.2,Bondi Beach surfing lessons,Fast,83.21,78.13499999999999,0.917263025737602,Large,Adventure
+Sydney,Australia,-33.8667,151.2,Blue Mountains hiking and scenic walks,Moderate,83.21,78.13499999999999,0.917263025737602,Large,Adventure
+Sydney,Australia,-33.8667,151.2,Taronga Zoo wildlife viewing,Relaxed,83.21,78.13499999999999,0.917263025737602,Large,Family
+Sydney,Australia,-33.8667,151.2,Manly Beach coastal walk and swimming,Relaxed,83.21,78.13499999999999,0.917263025737602,Large,Relaxation
+Sydney,Australia,-33.8667,151.2,Royal Botanic Garden picnicking and strolling,Relaxed,83.21,78.13499999999999,0.917263025737602,Large,Budget
+Sydney,Australia,-33.8667,151.2,Luxury dining at Quay restaurant with harbour views,Moderate,83.21,78.13499999999999,0.917263025737602,Large,Luxury
+Sydney,Australia,-33.8667,151.2,Darling Harbour museums and free walking tours,Fast,83.21,78.13499999999999,0.917263025737602,Large,Budget
+Barcelona,Spain,41.3833,2.1833,Sagrada Familia Basilica tour and architecture exploration,Moderate,61.15,61.519999999999996,1.2530876695687385,Large,Culture
+Barcelona,Spain,41.3833,2.1833,Park Güell visit and panoramic city views,Relaxed,61.15,61.519999999999996,1.2530876695687385,Large,Relaxation
+Barcelona,Spain,41.3833,2.1833,Gothic Quarter medieval street wandering and local tapas,Moderate,61.15,61.519999999999996,1.2530876695687385,Large,Culture
+Barcelona,Spain,41.3833,2.1833,La Rambla street performance watching and budget shopping,Fast,61.15,61.519999999999996,1.2530876695687385,Large,Budget
+Barcelona,Spain,41.3833,2.1833,Montjuïc Magic Fountain evening show and cable car rides,Moderate,61.15,61.519999999999996,1.2530876695687385,Large,Family
+Barcelona,Spain,41.3833,2.1833,Michelin-starred restaurant dining in Eixample district,Relaxed,61.15,61.519999999999996,1.2530876695687385,Large,Luxury
+Barcelona,Spain,41.3833,2.1833,Montserrat mountain hiking and monastery exploration,Fast,61.15,61.519999999999996,1.2530876695687385,Large,Adventure
+Barcelona,Spain,41.3833,2.1833,Barcelona Beach day and Mediterranean swimming,Relaxed,61.15,61.519999999999996,1.2530876695687385,Large,Relaxation
+Cape Town,South Africa,-33.9253,18.4239,Table Mountain Hiking and Cable Car Experience,Moderate,40.98,41.19499999999999,1.1896006894570523,Large,Adventure
+Cape Town,South Africa,-33.9253,18.4239,Robben Island Historical Tour,Moderate,40.98,41.19499999999999,1.1896006894570523,Large,Culture
+Cape Town,South Africa,-33.9253,18.4239,Camps Bay Beach and Sunset Relaxation,Relaxed,40.98,41.19499999999999,1.1896006894570523,Large,Relaxation
+Cape Town,South Africa,-33.9253,18.4239,V&A Waterfront Shopping and Fine Dining,Moderate,40.98,41.19499999999999,1.1896006894570523,Large,Luxury
+Cape Town,South Africa,-33.9253,18.4239,Chapman's Peak Drive Scenic Route,Fast,40.98,41.19499999999999,1.1896006894570523,Large,Adventure
+Cape Town,South Africa,-33.9253,18.4239,Company's Garden and Bo-Kaap Walking Tour,Moderate,40.98,41.19499999999999,1.1896006894570523,Large,Culture
+Cape Town,South Africa,-33.9253,18.4239,Kirstenbosch National Botanical Garden Visit,Relaxed,40.98,41.19499999999999,1.1896006894570523,Large,Family
+Cape Town,South Africa,-33.9253,18.4239,Long Street Budget Backpacking and Local Markets,Fast,40.98,41.19499999999999,1.1896006894570523,Large,Budget
+Berlin,Germany,52.52,13.405,Brandenburg Gate and Reichstag guided tour,Moderate,68.94,64.995,1.0822549193405424,Large,Culture
+Berlin,Germany,52.52,13.405,East Side Gallery street art exploration,Relaxed,68.94,64.995,1.0822549193405424,Large,Culture
+Berlin,Germany,52.52,13.405,Museum Island complex visits,Fast,68.94,64.995,1.0822549193405424,Large,Culture
+Berlin,Germany,52.52,13.405,Tiergarten park cycling and picnicking,Relaxed,68.94,64.995,1.0822549193405424,Large,Budget
+Berlin,Germany,52.52,13.405,Checkpoint Charlie and Berlin Wall memorials,Moderate,68.94,64.995,1.0822549193405424,Large,Culture
+Berlin,Germany,52.52,13.405,Charlottenburg Palace luxury tour,Moderate,68.94,64.995,1.0822549193405424,Large,Luxury
+Berlin,Germany,52.52,13.405,Berlin Zoo and Aquarium family visit,Moderate,68.94,64.995,1.0822549193405424,Large,Family
+Berlin,Germany,52.52,13.405,Kreuzberg district street food and nightlife adventure,Fast,68.94,64.995,1.0822549193405424,Large,Adventure
+Kabul,Afghanistan,34.5253,69.1783,Exploring Babur Gardens historical site and monuments,Moderate,21.35,18.1,0.9756898817345597,Large,Culture
+Kabul,Afghanistan,34.5253,69.1783,Hiking in the Hindu Kush Mountains surrounding Kabul,Fast,21.35,18.1,0.9756898817345597,Large,Adventure
+Kabul,Afghanistan,34.5253,69.1783,Visiting the Afghanistan National Museum,Moderate,21.35,18.1,0.9756898817345597,Large,Culture
+Kabul,Afghanistan,34.5253,69.1783,Budget guesthouse stay with local bazaar exploration,Relaxed,21.35,18.1,0.9756898817345597,Large,Budget
+Kabul,Afghanistan,34.5253,69.1783,Trekking to Paghman Valley and Qargha Lake,Fast,21.35,18.1,0.9756898817345597,Large,Adventure
+Kabul,Afghanistan,34.5253,69.1783,Shopping at Chicken Street for traditional Afghan crafts and textiles,Moderate,21.35,18.1,0.9756898817345597,Large,Culture
+Kabul,Afghanistan,34.5253,69.1783,Five-star hotel accommodation with fine dining experiences,Relaxed,21.35,18.1,0.9756898817345597,Large,Luxury
+Kabul,Afghanistan,34.5253,69.1783,Family visit to Kabul Zoo and local parks with children,Moderate,21.35,18.1,0.9756898817345597,Large,Family
+Montreal,Canada,45.5089,-73.5617,Hiking Mount Royal and exploring the summit views,Moderate,70.6,69.505,0.9292311871773974,Large,Adventure
+Montreal,Canada,45.5089,-73.5617,Visiting the Montreal Museum of Fine Arts,Relaxed,70.6,69.505,0.9292311871773974,Large,Culture
+Montreal,Canada,45.5089,-73.5617,Exploring the Underground City (RÉSO) shopping network,Fast,70.6,69.505,0.9292311871773974,Large,Budget
+Montreal,Canada,45.5089,-73.5617,Fine dining at a Michelin-starred restaurant in Old Montreal,Relaxed,70.6,69.505,0.9292311871773974,Large,Luxury
+Montreal,Canada,45.5089,-73.5617,Visiting the Biodôme and Insectarium with family,Moderate,70.6,69.505,0.9292311871773974,Large,Family
+Montreal,Canada,45.5089,-73.5617,Relaxing at Thermes Nordiques spa and wellness center,Relaxed,70.6,69.505,0.9292311871773974,Large,Relaxation
+Montreal,Canada,45.5089,-73.5617,Exploring Old Montreal's historic cobblestone streets and Notre-Dame Basilica,Moderate,70.6,69.505,0.9292311871773974,Large,Culture
+Montreal,Canada,45.5089,-73.5617,Kayaking on the Lachine Canal,Fast,70.6,69.505,0.9292311871773974,Large,Adventure
+Dubai,United Arab Emirates,25.2631,55.2972,Burj Khalifa Summit Visit,Fast,64.32,67.50999999999999,1.4655887230514095,Large,Luxury
+Dubai,United Arab Emirates,25.2631,55.2972,Desert Safari with Dune Bashing,Moderate,64.32,67.50999999999999,1.4655887230514095,Large,Adventure
+Dubai,United Arab Emirates,25.2631,55.2972,Gold Souk Shopping and Haggling,Relaxed,64.32,67.50999999999999,1.4655887230514095,Large,Culture
+Dubai,United Arab Emirates,25.2631,55.2972,Jumeirah Beach and Palm Island Tour,Relaxed,64.32,67.50999999999999,1.4655887230514095,Large,Relaxation
+Dubai,United Arab Emirates,25.2631,55.2972,Dubai Mall and Aquarium Exploration,Moderate,64.32,67.50999999999999,1.4655887230514095,Large,Family
+Dubai,United Arab Emirates,25.2631,55.2972,Al Fahidi Historical District Walking Tour,Moderate,64.32,67.50999999999999,1.4655887230514095,Large,Culture
+Dubai,United Arab Emirates,25.2631,55.2972,Budget Accommodation in Deira with Local Dining,Fast,64.32,67.50999999999999,1.4655887230514095,Large,Budget
+Dubai,United Arab Emirates,25.2631,55.2972,Luxury Yacht Cruise with Fine Dining,Relaxed,64.32,67.50999999999999,1.4655887230514095,Large,Luxury
+Caracas,Venezuela,10.4806,-66.9036,Mérida Cable Car (Teleférico de Mérida) exploration,Moderate,45.31,46.955,1.2925531914893618,Large,Adventure
+Caracas,Venezuela,10.4806,-66.9036,Margarita Island beach day trip,Relaxed,45.31,46.955,1.2925531914893618,Large,Relaxation
+Caracas,Venezuela,10.4806,-66.9036,Carlos Raúl Villanueva architectural tour,Moderate,45.31,46.955,1.2925531914893618,Large,Culture
+Caracas,Venezuela,10.4806,-66.9036,Local street food and arepa tasting in Sabana Grande,Fast,45.31,46.955,1.2925531914893618,Large,Budget
+Caracas,Venezuela,10.4806,-66.9036,Avila National Park hiking adventure,Fast,45.31,46.955,1.2925531914893618,Large,Adventure
+Caracas,Venezuela,10.4806,-66.9036,Museum of Contemporary Art (MACS) visit,Moderate,45.31,46.955,1.2925531914893618,Large,Culture
+Caracas,Venezuela,10.4806,-66.9036,Orinoco Delta eco-tourism expedition,Moderate,45.31,46.955,1.2925531914893618,Large,Adventure
+Caracas,Venezuela,10.4806,-66.9036,Family day at Los Llanos wildlife observation and ranch activities,Relaxed,45.31,46.955,1.2925531914893618,Large,Family
+Tashkent,Uzbekistan,41.3111,69.2797,Registan Square exploration and photography,Moderate,29.36,28.189999999999998,0.9394993045897079,Large,Culture
+Tashkent,Uzbekistan,41.3111,69.2797,Hazrat Imam Complex visit and Islamic architecture study,Relaxed,29.36,28.189999999999998,0.9394993045897079,Large,Culture
+Tashkent,Uzbekistan,41.3111,69.2797,Chorsu Bazaar haggling and local street food tasting,Fast,29.36,28.189999999999998,0.9394993045897079,Large,Budget
+Tashkent,Uzbekistan,41.3111,69.2797,Tashkent Metro station art and design tour,Moderate,29.36,28.189999999999998,0.9394993045897079,Large,Culture
+Tashkent,Uzbekistan,41.3111,69.2797,Amir Timur Museum and Central Asian history deep dive,Relaxed,29.36,28.189999999999998,0.9394993045897079,Large,Culture
+Tashkent,Uzbekistan,41.3111,69.2797,Old City walking tour with local guide through traditional neighborhoods,Moderate,29.36,28.189999999999998,0.9394993045897079,Large,Budget
+Tashkent,Uzbekistan,41.3111,69.2797,Charvak Reservoir day trip with water activities and mountain views,Fast,29.36,28.189999999999998,0.9394993045897079,Large,Adventure
+Tashkent,Uzbekistan,41.3111,69.2797,Tashkent Palace of Forums luxury dining and high-end shopping experience,Relaxed,29.36,28.189999999999998,0.9394993045897079,Large,Luxury
+Guayaquil,Ecuador,-2.19,-79.8875,Kayaking through Mangrove Forests at Churute Mangrove Reserve,Moderate,38.57,33.980000000000004,0.8641576007056748,Large,Adventure
+Guayaquil,Ecuador,-2.19,-79.8875,Visiting the Malecón 2000 Waterfront Promenade,Relaxed,38.57,33.980000000000004,0.8641576007056748,Large,Relaxation
+Guayaquil,Ecuador,-2.19,-79.8875,Exploring Las Peñas Historic District and Santa Ana Hill,Moderate,38.57,33.980000000000004,0.8641576007056748,Large,Culture
+Guayaquil,Ecuador,-2.19,-79.8875,Street Food Tour in the Central Market (Mercado Central),Fast,38.57,33.980000000000004,0.8641576007056748,Large,Budget
+Guayaquil,Ecuador,-2.19,-79.8875,Luxury Dining at High-End Restaurants in Urdesa District,Relaxed,38.57,33.980000000000004,0.8641576007056748,Large,Luxury
+Guayaquil,Ecuador,-2.19,-79.8875,Day Trip to Isla de la Plata Wildlife Watching and Snorkeling,Fast,38.57,33.980000000000004,0.8641576007056748,Large,Adventure
+Guayaquil,Ecuador,-2.19,-79.8875,Visiting the Guayaquil Zoo and Botanical Garden (Parque Histórico),Moderate,38.57,33.980000000000004,0.8641576007056748,Large,Family
+Guayaquil,Ecuador,-2.19,-79.8875,Museum Hopping: Anthropological Museum and Museum of Modern Art,Moderate,38.57,33.980000000000004,0.8641576007056748,Large,Culture
+Athens,Greece,37.9842,23.7281,Acropolis and Parthenon exploration,Moderate,58.97,59.875,1.2934666950414981,Large,Culture
+Athens,Greece,37.9842,23.7281,Hiking Mount Lycabettus at sunrise,Fast,58.97,59.875,1.2934666950414981,Large,Adventure
+Athens,Greece,37.9842,23.7281,Plaka district taverna dining and wine tasting,Relaxed,58.97,59.875,1.2934666950414981,Large,Luxury
+Athens,Greece,37.9842,23.7281,National Archaeological Museum guided tour,Moderate,58.97,59.875,1.2934666950414981,Large,Culture
+Athens,Greece,37.9842,23.7281,Budget hostel hopping and street food in Psyrri,Fast,58.97,59.875,1.2934666950414981,Large,Budget
+Athens,Greece,37.9842,23.7281,Syntagma Square and Temple of Olympian Zeus visit,Moderate,58.97,59.875,1.2934666950414981,Large,Family
+Athens,Greece,37.9842,23.7281,Anafiotika neighborhood wandering and local cafes,Relaxed,58.97,59.875,1.2934666950414981,Large,Relaxation
+Athens,Greece,37.9842,23.7281,Panathenaic Stadium tour and coastal Athens Riviera day trip,Fast,58.97,59.875,1.2934666950414981,Large,Adventure
+Kuwait City,Kuwait,29.3697,47.9783,Grand Mosque exploration and Islamic architecture tour,Moderate,48.0,47.6,1.3180675788885785,Mid/Small,Culture
+Kuwait City,Kuwait,29.3697,47.9783,Kuwait National Museum visit and historical exhibits,Moderate,48.0,47.6,1.3180675788885785,Mid/Small,Culture
+Kuwait City,Kuwait,29.3697,47.9783,Kuwait Towers sightseeing and observation deck experience,Fast,48.0,47.6,1.3180675788885785,Mid/Small,Family
+Kuwait City,Kuwait,29.3697,47.9783,Desert safari and dune bashing in Subiya,Fast,48.0,47.6,1.3180675788885785,Mid/Small,Adventure
+Kuwait City,Kuwait,29.3697,47.9783,Souk Al-Mubarakiya traditional market shopping and dining,Relaxed,48.0,47.6,1.3180675788885785,Mid/Small,Culture
+Kuwait City,Kuwait,29.3697,47.9783,Luxury spa and wellness retreat at high-end hotel,Relaxed,48.0,47.6,1.3180675788885785,Mid/Small,Luxury
+Kuwait City,Kuwait,29.3697,47.9783,Budget-friendly street food tour in local neighborhoods,Moderate,48.0,47.6,1.3180675788885785,Mid/Small,Budget
+Kuwait City,Kuwait,29.3697,47.9783,Beach relaxation and water sports at Kuwait beaches,Relaxed,48.0,47.6,1.3180675788885785,Mid/Small,Relaxation
+Pretoria,South Africa,-25.7461,28.1881,Union Buildings guided tour and gardens exploration,Moderate,42.76,39.61,1.0402282453637661,Mid/Small,Culture
+Pretoria,South Africa,-25.7461,28.1881,Pretoria National Botanical Garden walking and picnicking,Relaxed,42.76,39.61,1.0402282453637661,Mid/Small,Relaxation
+Pretoria,South Africa,-25.7461,28.1881,Kruger National Park day safari from Pretoria,Fast,42.76,39.61,1.0402282453637661,Mid/Small,Adventure
+Pretoria,South Africa,-25.7461,28.1881,Church Square historic architecture and museum visits,Moderate,42.76,39.61,1.0402282453637661,Mid/Small,Culture
+Pretoria,South Africa,-25.7461,28.1881,Budget hostel stays and local street food exploration,Moderate,42.76,39.61,1.0402282453637661,Mid/Small,Budget
+Pretoria,South Africa,-25.7461,28.1881,Pretoria Zoo full-day visit with family activities,Moderate,42.76,39.61,1.0402282453637661,Mid/Small,Family
+Pretoria,South Africa,-25.7461,28.1881,Five-star hotel spa and fine dining at Menlyn establishments,Relaxed,42.76,39.61,1.0402282453637661,Mid/Small,Luxury
+Pretoria,South Africa,-25.7461,28.1881,Voortrekker Monument hiking and cultural heritage exploration,Fast,42.76,39.61,1.0402282453637661,Mid/Small,Adventure
+Rome,Italy,41.8931,12.4828,Colosseum Guided Tour,Moderate,71.0,70.63,1.120216836734694,Mid/Small,Culture
+Rome,Italy,41.8931,12.4828,Vatican Museums and Sistine Chapel,Fast,71.0,70.63,1.120216836734694,Mid/Small,Culture
+Rome,Italy,41.8931,12.4828,Trevi Fountain Visit and Coin Tossing,Relaxed,71.0,70.63,1.120216836734694,Mid/Small,Relaxation
+Rome,Italy,41.8931,12.4828,Roman Forum Archaeological Walk,Moderate,71.0,70.63,1.120216836734694,Mid/Small,Culture
+Rome,Italy,41.8931,12.4828,Budget Hostel Crawl and Street Food Tour,Fast,71.0,70.63,1.120216836734694,Mid/Small,Budget
+Rome,Italy,41.8931,12.4828,Michelin-Star Dining Experience in Centro Storico,Relaxed,71.0,70.63,1.120216836734694,Mid/Small,Luxury
+Rome,Italy,41.8931,12.4828,Pantheon and Piazza Navona Family Exploration,Moderate,71.0,70.63,1.120216836734694,Mid/Small,Family
+Rome,Italy,41.8931,12.4828,Catacombs Underground Adventure Tour,Fast,71.0,70.63,1.120216836734694,Mid/Small,Adventure
+Brisbane,Australia,-27.4678,153.0281,Lone Pine Koala Sanctuary wildlife encounters,Moderate,79.44,76.97,0.9391150888692802,Mid/Small,Family
+Brisbane,Australia,-27.4678,153.0281,South Bank Parklands cultural precinct exploration,Relaxed,79.44,76.97,0.9391150888692802,Mid/Small,Culture
+Brisbane,Australia,-27.4678,153.0281,Kayaking on the Brisbane River,Fast,79.44,76.97,0.9391150888692802,Mid/Small,Adventure
+Brisbane,Australia,-27.4678,153.0281,Story Bridge climb and panoramic views,Moderate,79.44,76.97,0.9391150888692802,Mid/Small,Adventure
+Brisbane,Australia,-27.4678,153.0281,City Botanic Gardens walking and picnicking,Relaxed,79.44,76.97,0.9391150888692802,Mid/Small,Relaxation
+Brisbane,Australia,-27.4678,153.0281,Gallery of Modern Art and Queensland Museum visits,Moderate,79.44,76.97,0.9391150888692802,Mid/Small,Culture
+Brisbane,Australia,-27.4678,153.0281,Budget hostel stays in Fortitude Valley with free walking tours,Fast,79.44,76.97,0.9391150888692802,Mid/Small,Budget
+Brisbane,Australia,-27.4678,153.0281,Fine dining at South Bank restaurants with riverside views,Relaxed,79.44,76.97,0.9391150888692802,Mid/Small,Luxury
+Valencia,Venezuela,10.1833,-68.0,Exploring the Valencia Waterfront and Malecón,Relaxed,52.97,54.075,1.2170269078076752,Mid/Small,Relaxation
+Valencia,Venezuela,10.1833,-68.0,Visit Fuerte Zumaque Historical Fort,Moderate,52.97,54.075,1.2170269078076752,Mid/Small,Culture
+Valencia,Venezuela,10.1833,-68.0,Beach Day at Playa de Patanemo,Relaxed,52.97,54.075,1.2170269078076752,Mid/Small,Family
+Valencia,Venezuela,10.1833,-68.0,Local Market Shopping at Mercado de Valencia,Fast,52.97,54.075,1.2170269078076752,Mid/Small,Budget
+Valencia,Venezuela,10.1833,-68.0,Kayaking in the Laguna de Tacarigua,Moderate,52.97,54.075,1.2170269078076752,Mid/Small,Adventure
+Valencia,Venezuela,10.1833,-68.0,Colonial Architecture Tour of Downtown Valencia,Moderate,52.97,54.075,1.2170269078076752,Mid/Small,Culture
+Valencia,Venezuela,10.1833,-68.0,Fine Dining Experience at High-End Waterfront Restaurants,Relaxed,52.97,54.075,1.2170269078076752,Mid/Small,Luxury
+Valencia,Venezuela,10.1833,-68.0,Water Sports and Windsurfing at Local Beaches,Fast,52.97,54.075,1.2170269078076752,Mid/Small,Adventure
+Damascus,Syria,33.502,36.2981,Umayyad Mosque exploration and Islamic architecture study,Moderate,36.38,32.515,0.7617654879021537,Mid/Small,Culture
+Damascus,Syria,33.502,36.2981,Budget accommodation in Old City souks with street food sampling,Relaxed,36.38,32.515,0.7617654879021537,Mid/Small,Budget
+Damascus,Syria,33.502,36.2981,Palmyra archaeological site day trip from Damascus,Fast,36.38,32.515,0.7617654879021537,Mid/Small,Adventure
+Damascus,Syria,33.502,36.2981,Traditional hammam (bath house) experience in historic quarters,Relaxed,36.38,32.515,0.7617654879021537,Mid/Small,Relaxation
+Damascus,Syria,33.502,36.2981,National Museum of Damascus artifact viewing and historical tours,Moderate,36.38,32.515,0.7617654879021537,Mid/Small,Culture
+Damascus,Syria,33.502,36.2981,Family visit to Tishreen Lake recreational area with picnicking,Relaxed,36.38,32.515,0.7617654879021537,Mid/Small,Family
+Damascus,Syria,33.502,36.2981,Five-star hotel dining and Ghouta countryside estate tours,Moderate,36.38,32.515,0.7617654879021537,Mid/Small,Luxury
+Damascus,Syria,33.502,36.2981,Hiking Mount Qasioun with budget guesthouse stays and local markets,Fast,36.38,32.515,0.7617654879021537,Mid/Small,Budget
+Taipei,Taiwan,25.0375,121.5625,Chiang Kai-shek Memorial Hall Changing of the Guard Ceremony,Moderate,65.8,50.019999999999996,0.42671984047856437,Mid/Small,Culture
+Taipei,Taiwan,25.0375,121.5625,Taipei 101 Observatory and Sunset Viewing,Fast,65.8,50.019999999999996,0.42671984047856437,Mid/Small,Luxury
+Taipei,Taiwan,25.0375,121.5625,Jiufen Old Street Night Market Food Tour,Relaxed,65.8,50.019999999999996,0.42671984047856437,Mid/Small,Budget
+Taipei,Taiwan,25.0375,121.5625,Yangmingshan National Park Hiking and Hot Springs,Moderate,65.8,50.019999999999996,0.42671984047856437,Mid/Small,Adventure
+Taipei,Taiwan,25.0375,121.5625,National Palace Museum Classical Chinese Art Collection,Moderate,65.8,50.019999999999996,0.42671984047856437,Mid/Small,Culture
+Taipei,Taiwan,25.0375,121.5625,Shilin Night Market Shopping and Street Food,Fast,65.8,50.019999999999996,0.42671984047856437,Mid/Small,Family
+Taipei,Taiwan,25.0375,121.5625,Beitou Hot Spring Resort and Thermal Bath Experience,Relaxed,65.8,50.019999999999996,0.42671984047856437,Mid/Small,Relaxation
+Taipei,Taiwan,25.0375,121.5625,Elephant Mountain Summit Trail and City Skyline Photography,Fast,65.8,50.019999999999996,0.42671984047856437,Mid/Small,Adventure
+Vancouver,Canada,49.25,-123.1,Hiking the Lions Peak Trail in North Shore Mountains,Moderate,76.61,75.45,0.9304859719438878,Mid/Small,Adventure
+Vancouver,Canada,49.25,-123.1,Relaxing at Kitsilano Beach and beachside cafes,Relaxed,76.61,75.45,0.9304859719438878,Mid/Small,Relaxation
+Vancouver,Canada,49.25,-123.1,Exploring the Vancouver Art Gallery and downtown cultural district,Moderate,76.61,75.45,0.9304859719438878,Mid/Small,Culture
+Vancouver,Canada,49.25,-123.1,Budget backpacking through Gastown and free walking tours,Fast,76.61,75.45,0.9304859719438878,Mid/Small,Budget
+Vancouver,Canada,49.25,-123.1,Fine dining at Michelin-starred restaurants in Yaletown,Relaxed,76.61,75.45,0.9304859719438878,Mid/Small,Luxury
+Vancouver,Canada,49.25,-123.1,Family day at Stanley Park with seawall cycling and aquarium,Moderate,76.61,75.45,0.9304859719438878,Mid/Small,Family
+Vancouver,Canada,49.25,-123.1,Kayaking and wildlife viewing in Indian Arm,Moderate,76.61,75.45,0.9304859719438878,Mid/Small,Adventure
+Vancouver,Canada,49.25,-123.1,Museum hopping at Museum of Anthropology and Science World,Fast,76.61,75.45,0.9304859719438878,Mid/Small,Culture
+Beirut,Lebanon,33.8981,35.5058,Explore the Corniche waterfront and Mediterranean beaches,Relaxed,120.47,118.71000000000001,0.8274959315078185,Mid/Small,Relaxation
+Beirut,Lebanon,33.8981,35.5058,Visit the National Museum of Beirut and Ottoman artifacts,Moderate,120.47,118.71000000000001,0.8274959315078185,Mid/Small,Culture
+Beirut,Lebanon,33.8981,35.5058,Hike in the Chouf Cedar Reserve near Beirut,Fast,120.47,118.71000000000001,0.8274959315078185,Mid/Small,Adventure
+Beirut,Lebanon,33.8981,35.5058,Dine at upscale restaurants in Gemmayzeh district,Moderate,120.47,118.71000000000001,0.8274959315078185,Mid/Small,Luxury
+Beirut,Lebanon,33.8981,35.5058,Shop and explore street food in Tripoli souk day trip,Fast,120.47,118.71000000000001,0.8274959315078185,Mid/Small,Budget
+Beirut,Lebanon,33.8981,35.5058,Visit Pigeon Rocks and take family boat tours,Moderate,120.47,118.71000000000001,0.8274959315078185,Mid/Small,Family
+Beirut,Lebanon,33.8981,35.5058,Rock climbing and rappelling at Jeita Grotto,Fast,120.47,118.71000000000001,0.8274959315078185,Mid/Small,Adventure
+Beirut,Lebanon,33.8981,35.5058,Explore Martyrs' Square and downtown historic architecture,Moderate,120.47,118.71000000000001,0.8274959315078185,Mid/Small,Culture
+Bucharest,Romania,44.4325,26.1039,Palace of Parliament guided tour,Moderate,40.1,39.775000000000006,1.1776119402985075,Mid/Small,Culture
+Bucharest,Romania,44.4325,26.1039,Old Town (Lipscani) historic district exploration,Relaxed,40.1,39.775000000000006,1.1776119402985075,Mid/Small,Culture
+Bucharest,Romania,44.4325,26.1039,Danube Delta day trip kayaking,Fast,40.1,39.775000000000006,1.1776119402985075,Mid/Small,Adventure
+Bucharest,Romania,44.4325,26.1039,Budget hostel crawl and street food sampling,Fast,40.1,39.775000000000006,1.1776119402985075,Mid/Small,Budget
+Bucharest,Romania,44.4325,26.1039,Herastrau Park picnic and lakeside walking,Relaxed,40.1,39.775000000000006,1.1776119402985075,Mid/Small,Relaxation
+Bucharest,Romania,44.4325,26.1039,Village Museum traditional crafts and folk culture,Moderate,40.1,39.775000000000006,1.1776119402985075,Mid/Small,Culture
+Bucharest,Romania,44.4325,26.1039,Luxury spa experience at high-end hotel wellness center,Relaxed,40.1,39.775000000000006,1.1776119402985075,Mid/Small,Luxury
+Bucharest,Romania,44.4325,26.1039,Snagov Monastery visit with family bike rental,Moderate,40.1,39.775000000000006,1.1776119402985075,Mid/Small,Family
+Algiers,Algeria,36.7325,3.0872,Casbah of Algiers exploration and traditional medina wandering,Moderate,29.84,25.314999999999998,0.6872727272727273,Mid/Small,Culture
+Algiers,Algeria,36.7325,3.0872,Martyrs' Memorial (Maqam Echahid) visit and panoramic city views,Fast,29.84,25.314999999999998,0.6872727272727273,Mid/Small,Culture
+Algiers,Algeria,36.7325,3.0872,Ketchaoua Mosque and Ottoman architecture tour,Relaxed,29.84,25.314999999999998,0.6872727272727273,Mid/Small,Culture
+Algiers,Algeria,36.7325,3.0872,Budget street food tasting in Bab El Oued neighborhood,Moderate,29.84,25.314999999999998,0.6872727272727273,Mid/Small,Budget
+Algiers,Algeria,36.7325,3.0872,National Museum of Antiquities and Bardo Museum visits,Moderate,29.84,25.314999999999998,0.6872727272727273,Mid/Small,Culture
+Algiers,Algeria,36.7325,3.0872,Coastal relaxation at Sablettes Beach with local café stops,Relaxed,29.84,25.314999999999998,0.6872727272727273,Mid/Small,Relaxation
+Algiers,Algeria,36.7325,3.0872,Family-friendly Jardin d'Essai du Hamma botanical garden day trip,Moderate,29.84,25.314999999999998,0.6872727272727273,Mid/Small,Family
+Algiers,Algeria,36.7325,3.0872,Upscale dining and shopping in Hydra district with seaside promenade,Relaxed,29.84,25.314999999999998,0.6872727272727273,Mid/Small,Luxury
+Baku,Azerbaijan,40.3667,49.8352,Flame Towers panoramic views and sunset photography,Relaxed,31.6,30.715,1.0757302560403894,Mid/Small,Culture
+Baku,Azerbaijan,40.3667,49.8352,Gobustan mud volcanoes hiking and rock art exploration,Fast,31.6,30.715,1.0757302560403894,Mid/Small,Adventure
+Baku,Azerbaijan,40.3667,49.8352,Old City (Icherisheher) UNESCO heritage walking tour,Moderate,31.6,30.715,1.0757302560403894,Mid/Small,Culture
+Baku,Azerbaijan,40.3667,49.8352,Heydar Aliyev Center architecture and contemporary art exhibits,Moderate,31.6,30.715,1.0757302560403894,Mid/Small,Culture
+Baku,Azerbaijan,40.3667,49.8352,Caspian Sea beach relaxation and waterfront dining,Relaxed,31.6,30.715,1.0757302560403894,Mid/Small,Relaxation
+Baku,Azerbaijan,40.3667,49.8352,Baku Boulevard promenade cycling and local market exploration,Moderate,31.6,30.715,1.0757302560403894,Mid/Small,Budget
+Baku,Azerbaijan,40.3667,49.8352,Absheron National Park wildlife observation and lagoon visits,Fast,31.6,30.715,1.0757302560403894,Mid/Small,Adventure
+Baku,Azerbaijan,40.3667,49.8352,Atashgah Fire Temple spiritual pilgrimage and evening light show,Relaxed,31.6,30.715,1.0757302560403894,Mid/Small,Culture
+Almaty,Kazakhstan,43.24,76.915,Hiking in Turgen Gorge,Moderate,30.22,29.43,1.061527057079318,Mid/Small,Adventure
+Almaty,Kazakhstan,43.24,76.915,Big Almaty Lake visit and photography,Relaxed,30.22,29.43,1.061527057079318,Mid/Small,Relaxation
+Almaty,Kazakhstan,43.24,76.915,Central State Museum of Kazakhstan exploration,Moderate,30.22,29.43,1.061527057079318,Mid/Small,Culture
+Almaty,Kazakhstan,43.24,76.915,Budget guesthouse stay in Assy Plateau,Fast,30.22,29.43,1.061527057079318,Mid/Small,Budget
+Almaty,Kazakhstan,43.24,76.915,Chyn Canyon trekking expedition,Fast,30.22,29.43,1.061527057079318,Mid/Small,Adventure
+Almaty,Kazakhstan,43.24,76.915,Panfilov Park and Zenkov Cathedral tour,Relaxed,30.22,29.43,1.061527057079318,Mid/Small,Culture
+Almaty,Kazakhstan,43.24,76.915,Ski resort visit at Chimbulak Mountain,Moderate,30.22,29.43,1.061527057079318,Mid/Small,Family
+Almaty,Kazakhstan,43.24,76.915,Luxury spa experience at high-end resort near Turgen,Relaxed,30.22,29.43,1.061527057079318,Mid/Small,Luxury
+Vienna,Austria,48.2083,16.3725,Schönbrunn Palace Tour and Gardens,Moderate,68.36,67.64500000000001,1.0845892075838601,Mid/Small,Culture
+Vienna,Austria,48.2083,16.3725,St. Stephen's Cathedral Climbing and Interior Exploration,Fast,68.36,67.64500000000001,1.0845892075838601,Mid/Small,Culture
+Vienna,Austria,48.2083,16.3725,Vienna State Opera House Performance and Behind-the-Scenes Tour,Relaxed,68.36,67.64500000000001,1.0845892075838601,Mid/Small,Luxury
+Vienna,Austria,48.2083,16.3725,Danube River Cycling Route,Moderate,68.36,67.64500000000001,1.0845892075838601,Mid/Small,Adventure
+Vienna,Austria,48.2083,16.3725,Belvedere Palace Art Museum Visit,Moderate,68.36,67.64500000000001,1.0845892075838601,Mid/Small,Culture
+Vienna,Austria,48.2083,16.3725,Coffee House Culture and Sachertorte at Café Central,Relaxed,68.36,67.64500000000001,1.0845892075838601,Mid/Small,Relaxation
+Vienna,Austria,48.2083,16.3725,Prater Amusement Park and Giant Ferris Wheel,Fast,68.36,67.64500000000001,1.0845892075838601,Mid/Small,Family
+Vienna,Austria,48.2083,16.3725,Naschmarkt Street Food and Budget Shopping,Fast,68.36,67.64500000000001,1.0845892075838601,Mid/Small,Budget
+Perth,Australia,-31.9558,115.8597,Surfing at Scarborough Beach,Moderate,77.29,74.685,0.9428384565075212,Mid/Small,Adventure
+Perth,Australia,-31.9558,115.8597,Rottnest Island quokka encounters and snorkeling,Relaxed,77.29,74.685,0.9428384565075212,Mid/Small,Family
+Perth,Australia,-31.9558,115.8597,Art Gallery of Western Australia and cultural precinct,Moderate,77.29,74.685,0.9428384565075212,Mid/Small,Culture
+Perth,Australia,-31.9558,115.8597,Kings Park botanic gardens and river walks,Relaxed,77.29,74.685,0.9428384565075212,Mid/Small,Relaxation
+Perth,Australia,-31.9558,115.8597,Perth Mint gold coin pouring experience,Fast,77.29,74.685,0.9428384565075212,Mid/Small,Culture
+Perth,Australia,-31.9558,115.8597,Backpacking through Northbridge nightlife and street art,Fast,77.29,74.685,0.9428384565075212,Mid/Small,Budget
+Perth,Australia,-31.9558,115.8597,Swan River luxury dining and sunset cruise,Relaxed,77.29,74.685,0.9428384565075212,Mid/Small,Luxury
+Perth,Australia,-31.9558,115.8597,Kalamunda hiking trails and eucalyptus forests,Moderate,77.29,74.685,0.9428384565075212,Mid/Small,Adventure
+Phnom Penh,Cambodia,11.5696,104.921,Tuol Sleng Genocide Museum exploration,Moderate,50.1,36.645,0.4256607929515419,Mid/Small,Culture
+Phnom Penh,Cambodia,11.5696,104.921,Tonlé Sap Lake floating villages boat tour,Relaxed,50.1,36.645,0.4256607929515419,Mid/Small,Adventure
+Phnom Penh,Cambodia,11.5696,104.921,Royal Palace and Silver Pagoda guided tour,Moderate,50.1,36.645,0.4256607929515419,Mid/Small,Culture
+Phnom Penh,Cambodia,11.5696,104.921,Street food market hopping in Central Market,Fast,50.1,36.645,0.4256607929515419,Mid/Small,Budget
+Phnom Penh,Cambodia,11.5696,104.921,Riverside luxury dining and spa treatments,Relaxed,50.1,36.645,0.4256607929515419,Mid/Small,Luxury
+Phnom Penh,Cambodia,11.5696,104.921,Kampong Phluk mangrove forest kayaking,Moderate,50.1,36.645,0.4256607929515419,Mid/Small,Adventure
+Phnom Penh,Cambodia,11.5696,104.921,Wat Phnom temple visit and meditation,Relaxed,50.1,36.645,0.4256607929515419,Mid/Small,Culture
+Phnom Penh,Cambodia,11.5696,104.921,Family-friendly water park and local market day,Moderate,50.1,36.645,0.4256607929515419,Mid/Small,Family
+Havana,Cuba,23.1367,-82.3589,Exploring Old Havana (Habana Vieja) colonial architecture and UNESCO World Heritage streets,Moderate,55.91,48.025,0.8741289198606271,Mid/Small,Culture
+Havana,Cuba,23.1367,-82.3589,Beach relaxation at Playas del Este with local seafood dining,Relaxed,55.91,48.025,0.8741289198606271,Mid/Small,Relaxation
+Havana,Cuba,23.1367,-82.3589,Vintage American car tour through Havana streets and countryside,Moderate,55.91,48.025,0.8741289198606271,Mid/Small,Adventure
+Havana,Cuba,23.1367,-82.3589,Budget hostel hopping and street food exploration in Centro Habana,Fast,55.91,48.025,0.8741289198606271,Mid/Small,Budget
+Havana,Cuba,23.1367,-82.3589,Five-star resort experience at Hotel Nacional de Cuba with rooftop bar views,Relaxed,55.91,48.025,0.8741289198606271,Mid/Small,Luxury
+Havana,Cuba,23.1367,-82.3589,Family visit to Parque Lenin with amusement rides and botanical gardens,Moderate,55.91,48.025,0.8741289198606271,Mid/Small,Family
+Havana,Cuba,23.1367,-82.3589,Hemingway literary tour including Finca Vigía museum and La Floridita bar,Moderate,55.91,48.025,0.8741289198606271,Mid/Small,Culture
+Havana,Cuba,23.1367,-82.3589,Snorkeling and diving at nearby coral reefs with adventure outfitters,Fast,55.91,48.025,0.8741289198606271,Mid/Small,Adventure
+Warsaw,Poland,52.23,21.0111,Warsaw Uprising Museum exploration,Moderate,43.94,43.04,1.2419687592101385,Mid/Small,Culture
+Warsaw,Poland,52.23,21.0111,Vistula River kayaking and water sports,Fast,43.94,43.04,1.2419687592101385,Mid/Small,Adventure
+Warsaw,Poland,52.23,21.0111,Royal Castle guided tours and Old Town walking,Relaxed,43.94,43.04,1.2419687592101385,Mid/Small,Culture
+Warsaw,Poland,52.23,21.0111,Budget hostel hopping and street food in Praga district,Fast,43.94,43.04,1.2419687592101385,Mid/Small,Budget
+Warsaw,Poland,52.23,21.0111,Chopin Museum and classical music concerts,Relaxed,43.94,43.04,1.2419687592101385,Mid/Small,Luxury
+Warsaw,Poland,52.23,21.0111,POLIN Museum of Polish Jewish history,Moderate,43.94,43.04,1.2419687592101385,Mid/Small,Culture
+Warsaw,Poland,52.23,21.0111,Warsaw Zoo and Lazienki Park family activities,Moderate,43.94,43.04,1.2419687592101385,Mid/Small,Family
+Warsaw,Poland,52.23,21.0111,Spa and wellness retreat at luxury hotel with Vistula views,Relaxed,43.94,43.04,1.2419687592101385,Mid/Small,Luxury
+Minsk,Belarus,53.9006,27.5586,Independence Day Palace architectural tour and Soviet history museum,Moderate,32.79,33.135,1.17432479831638,Mid/Small,Culture
+Minsk,Belarus,53.9006,27.5586,Minsk National Library rooftop observation and modern architecture exploration,Relaxed,32.79,33.135,1.17432479831638,Mid/Small,Culture
+Minsk,Belarus,53.9006,27.5586,Victory Park memorials and World War II historical sites walking tour,Moderate,32.79,33.135,1.17432479831638,Mid/Small,Culture
+Minsk,Belarus,53.9006,27.5586,Svislach River kayaking and nature reserve exploration,Fast,32.79,33.135,1.17432479831638,Mid/Small,Adventure
+Minsk,Belarus,53.9006,27.5586,Street food sampling at Komsomolskaya metro station and local markets,Relaxed,32.79,33.135,1.17432479831638,Mid/Small,Budget
+Minsk,Belarus,53.9006,27.5586,Loshitsa Manor Museum estate visit and traditional Belarusian village experience,Moderate,32.79,33.135,1.17432479831638,Mid/Small,Family
+Minsk,Belarus,53.9006,27.5586,Minsk Opera and Ballet Theatre evening performance and fine dining,Relaxed,32.79,33.135,1.17432479831638,Mid/Small,Luxury
+Minsk,Belarus,53.9006,27.5586,Dudutki open-air museum traditional crafts workshops and artisan demonstrations,Moderate,32.79,33.135,1.17432479831638,Mid/Small,Culture
+San Juan,Puerto Rico,18.3985,-66.061,El Yunque National Rainforest Hiking,Fast,70.14,64.125,0.7772873194221508,Mid/Small,Adventure
+San Juan,Puerto Rico,18.3985,-66.061,Old San Juan Colonial Architecture Walking Tour,Moderate,70.14,64.125,0.7772873194221508,Mid/Small,Culture
+San Juan,Puerto Rico,18.3985,-66.061,Condado Beach Resort Relaxation,Relaxed,70.14,64.125,0.7772873194221508,Mid/Small,Luxury
+San Juan,Puerto Rico,18.3985,-66.061,Local Food Market at Plaza del Mercado,Moderate,70.14,64.125,0.7772873194221508,Mid/Small,Budget
+San Juan,Puerto Rico,18.3985,-66.061,Bioluminescent Bay Night Kayaking,Moderate,70.14,64.125,0.7772873194221508,Mid/Small,Adventure
+San Juan,Puerto Rico,18.3985,-66.061,Castillo San Felipe del Morro Historic Site Visit,Moderate,70.14,64.125,0.7772873194221508,Mid/Small,Culture
+San Juan,Puerto Rico,18.3985,-66.061,Family Beach Day at Flamenco Beach,Relaxed,70.14,64.125,0.7772873194221508,Mid/Small,Family
+San Juan,Puerto Rico,18.3985,-66.061,Luxury Dining at Fine Restaurants in Condado,Relaxed,70.14,64.125,0.7772873194221508,Mid/Small,Luxury
+San Juan,Puerto Rico,18.3985,-66.061,Explore El Yunque National Rainforest hiking trails,Fast,70.14,64.125,0.7772873194221508,Mid/Small,Adventure
+San Juan,Puerto Rico,18.3985,-66.061,Visit Old San Juan colorful colonial architecture and street art,Moderate,70.14,64.125,0.7772873194221508,Mid/Small,Culture
+San Juan,Puerto Rico,18.3985,-66.061,Relax at Flamenco Beach on Culebra Island,Relaxed,70.14,64.125,0.7772873194221508,Mid/Small,Relaxation
+San Juan,Puerto Rico,18.3985,-66.061,Dine at fine restaurants in Condado district and enjoy cocktails,Moderate,70.14,64.125,0.7772873194221508,Mid/Small,Luxury
+San Juan,Puerto Rico,18.3985,-66.061,Tour Castillo San Felipe del Morro fortress and historic sites,Moderate,70.14,64.125,0.7772873194221508,Mid/Small,Culture
+San Juan,Puerto Rico,18.3985,-66.061,Budget street food tour in Old San Juan and local markets,Fast,70.14,64.125,0.7772873194221508,Mid/Small,Budget
+San Juan,Puerto Rico,18.3985,-66.061,Family beach day at Luquillo Beach with water sports activities,Relaxed,70.14,64.125,0.7772873194221508,Mid/Small,Family
+San Juan,Puerto Rico,18.3985,-66.061,Kayak through bioluminescent bay at Vieques,Moderate,70.14,64.125,0.7772873194221508,Mid/Small,Adventure
+Curitiba,Brazil,-25.4297,-49.2719,Botanical Garden of Curitiba exploration,Relaxed,31.81,28.56,0.930514705882353,Mid/Small,Relaxation
+Curitiba,Brazil,-25.4297,-49.2719,Oscar Niemeyer Museum visit,Moderate,31.81,28.56,0.930514705882353,Mid/Small,Culture
+Curitiba,Brazil,-25.4297,-49.2719,Parque Tingui hiking and nature trails,Fast,31.81,28.56,0.930514705882353,Mid/Small,Adventure
+Curitiba,Brazil,-25.4297,-49.2719,Street art tour in Bom Retiro neighborhood,Moderate,31.81,28.56,0.930514705882353,Mid/Small,Culture
+Curitiba,Brazil,-25.4297,-49.2719,Budget-friendly street food sampling at local markets,Moderate,31.81,28.56,0.930514705882353,Mid/Small,Budget
+Curitiba,Brazil,-25.4297,-49.2719,Passeio Público park picnic and sightseeing,Relaxed,31.81,28.56,0.930514705882353,Mid/Small,Family
+Curitiba,Brazil,-25.4297,-49.2719,Upscale dining at Bairro Alto restaurants with city views,Relaxed,31.81,28.56,0.930514705882353,Mid/Small,Luxury
+Curitiba,Brazil,-25.4297,-49.2719,Wire Opera House contemporary performance experience,Fast,31.81,28.56,0.930514705882353,Mid/Small,Culture
+San Jose,United States,37.3012,-121.848,Tech Museum of Innovation exploration,Moderate,47.65,45.405,0.9354139575205894,Mid/Small,Culture
+San Jose,United States,37.3012,-121.848,Rosicrucian Egyptian Museum tour,Relaxed,47.65,45.405,0.9354139575205894,Mid/Small,Culture
+San Jose,United States,37.3012,-121.848,San Jose State University campus walk and local cafes,Moderate,47.65,45.405,0.9354139575205894,Mid/Small,Budget
+San Jose,United States,37.3012,-121.848,Happy Hollow Park & Zoo visit with family,Moderate,47.65,45.405,0.9354139575205894,Mid/Small,Family
+San Jose,United States,37.3012,-121.848,Downtown San Jose restaurant and nightlife crawl,Fast,47.65,45.405,0.9354139575205894,Mid/Small,Luxury
+San Jose,United States,37.3012,-121.848,Hiking at Almaden Quicksilver County Park,Fast,47.65,45.405,0.9354139575205894,Mid/Small,Adventure
+San Jose,United States,37.3012,-121.848,San Jose Museum of Art and cultural district exploration,Relaxed,47.65,45.405,0.9354139575205894,Mid/Small,Culture
+San Jose,United States,37.3012,-121.848,Santana Row shopping and budget-friendly street food sampling,Moderate,47.65,45.405,0.9354139575205894,Mid/Small,Budget
+Quito,Ecuador,-0.22,-78.5125,Hiking in Cotopaxi National Park,Moderate,40.48,35.91,0.8247368421052631,Mid/Small,Adventure
+Quito,Ecuador,-0.22,-78.5125,Visit the Basilica del Voto Nacional,Relaxed,40.48,35.91,0.8247368421052631,Mid/Small,Culture
+Quito,Ecuador,-0.22,-78.5125,Explore the Historic Center and colonial architecture,Moderate,40.48,35.91,0.8247368421052631,Mid/Small,Culture
+Quito,Ecuador,-0.22,-78.5125,Day trip to Otavalo indigenous market,Fast,40.48,35.91,0.8247368421052631,Mid/Small,Budget
+Quito,Ecuador,-0.22,-78.5125,Spa and wellness retreat in Mariscal neighborhood,Relaxed,40.48,35.91,0.8247368421052631,Mid/Small,Relaxation
+Quito,Ecuador,-0.22,-78.5125,Visit Quito Zoo and Botanical Gardens with family,Moderate,40.48,35.91,0.8247368421052631,Mid/Small,Family
+Quito,Ecuador,-0.22,-78.5125,Fine dining and upscale shopping in Cumbayá valley,Relaxed,40.48,35.91,0.8247368421052631,Mid/Small,Luxury
+Quito,Ecuador,-0.22,-78.5125,Street food tour and local markets in La Mariscal,Fast,40.48,35.91,0.8247368421052631,Mid/Small,Budget
+Lusaka,Zambia,-15.4167,28.2833,South Luangwa National Park Safari,Moderate,33.57,28.6,0.7193302891933029,Mid/Small,Adventure
+Lusaka,Zambia,-15.4167,28.2833,Livingstone Museum Visit,Relaxed,33.57,28.6,0.7193302891933029,Mid/Small,Culture
+Lusaka,Zambia,-15.4167,28.2833,Lusaka National Museum Exploration,Moderate,33.57,28.6,0.7193302891933029,Mid/Small,Culture
+Lusaka,Zambia,-15.4167,28.2833,Budget Backpacking in Kalingalinga Market,Fast,33.57,28.6,0.7193302891933029,Mid/Small,Budget
+Lusaka,Zambia,-15.4167,28.2833,Intercontinental Hotel Spa and Fine Dining,Relaxed,33.57,28.6,0.7193302891933029,Mid/Small,Luxury
+Lusaka,Zambia,-15.4167,28.2833,Munda Wanga Environmental Park Family Visit,Moderate,33.57,28.6,0.7193302891933029,Mid/Small,Family
+Lusaka,Zambia,-15.4167,28.2833,Zambezi River Adventure Activities,Fast,33.57,28.6,0.7193302891933029,Mid/Small,Adventure
+Lusaka,Zambia,-15.4167,28.2833,Local Craft Markets and Street Food Tour,Relaxed,33.57,28.6,0.7193302891933029,Mid/Small,Budget
+Montevideo,Uruguay,-34.9056,-56.1842,Explore the Ciudad Vieja historic district and colonial architecture,Moderate,52.0,49.769999999999996,1.0841505131128848,Mid/Small,Culture
+Montevideo,Uruguay,-34.9056,-56.1842,Relax at Playa Pocitos beach and waterfront promenade,Relaxed,52.0,49.769999999999996,1.0841505131128848,Mid/Small,Relaxation
+Montevideo,Uruguay,-34.9056,-56.1842,Visit the Mercado del Puerto for local food and street performances,Moderate,52.0,49.769999999999996,1.0841505131128848,Mid/Small,Budget
+Montevideo,Uruguay,-34.9056,-56.1842,Tour Teatro Solís and attend a cultural performance,Moderate,52.0,49.769999999999996,1.0841505131128848,Mid/Small,Culture
+Montevideo,Uruguay,-34.9056,-56.1842,Kayaking and water sports at the Río de la Plata estuary,Fast,52.0,49.769999999999996,1.0841505131128848,Mid/Small,Adventure
+Montevideo,Uruguay,-34.9056,-56.1842,Dine at upscale restaurants in Punta Carretas and enjoy wine tasting,Relaxed,52.0,49.769999999999996,1.0841505131128848,Mid/Small,Luxury
+Montevideo,Uruguay,-34.9056,-56.1842,Visit the Parque Rodó amusement park and gardens with family,Moderate,52.0,49.769999999999996,1.0841505131128848,Mid/Small,Family
+Montevideo,Uruguay,-34.9056,-56.1842,Hike and explore the Cerro de Montevideo viewpoint and surrounding neighborhoods,Fast,52.0,49.769999999999996,1.0841505131128848,Mid/Small,Adventure
+Budapest,Hungary,47.4983,19.0408,Bathing in Széchenyi Thermal Bath,Relaxed,46.13,44.055,1.0714650331801938,Mid/Small,Relaxation
+Budapest,Hungary,47.4983,19.0408,Exploring Buda Castle and Castle District,Moderate,46.13,44.055,1.0714650331801938,Mid/Small,Culture
+Budapest,Hungary,47.4983,19.0408,Danube River Cruise at Sunset,Relaxed,46.13,44.055,1.0714650331801938,Mid/Small,Luxury
+Budapest,Hungary,47.4983,19.0408,Street Food Tour in Central Market Hall,Fast,46.13,44.055,1.0714650331801938,Mid/Small,Budget
+Budapest,Hungary,47.4983,19.0408,Visiting Parliament Building with Guided Tour,Moderate,46.13,44.055,1.0714650331801938,Mid/Small,Culture
+Budapest,Hungary,47.4983,19.0408,Caving and Hiking in Pilis Mountains near Budapest,Fast,46.13,44.055,1.0714650331801938,Mid/Small,Adventure
+Budapest,Hungary,47.4983,19.0408,Budapest Zoo and Botanical Garden Visit,Moderate,46.13,44.055,1.0714650331801938,Mid/Small,Family
+Budapest,Hungary,47.4983,19.0408,Ruin Bar Hopping in the Jewish Quarter,Fast,46.13,44.055,1.0714650331801938,Mid/Small,Budget
+Kampala,Uganda,0.3136,32.5811,Kasubi Tombs Historical Site Visit,Moderate,35.98,31.294999999999998,0.8187692307692308,Mid/Small,Culture
+Kampala,Uganda,0.3136,32.5811,Uganda Museum Exploration,Moderate,35.98,31.294999999999998,0.8187692307692308,Mid/Small,Culture
+Kampala,Uganda,0.3136,32.5811,Kampala City Walking Tour through Nakasero,Fast,35.98,31.294999999999998,0.8187692307692308,Mid/Small,Budget
+Kampala,Uganda,0.3136,32.5811,Kabaka Palace Gardens Tour,Relaxed,35.98,31.294999999999998,0.8187692307692308,Mid/Small,Culture
+Kampala,Uganda,0.3136,32.5811,Gulu Road Street Food and Local Market Adventure,Fast,35.98,31.294999999999998,0.8187692307692308,Mid/Small,Budget
+Kampala,Uganda,0.3136,32.5811,Makerere University Campus and Institutional History Tour,Moderate,35.98,31.294999999999998,0.8187692307692308,Mid/Small,Culture
+Kampala,Uganda,0.3136,32.5811,Kampala Serena Hotel Rooftop Dining Experience,Relaxed,35.98,31.294999999999998,0.8187692307692308,Mid/Small,Luxury
+Kampala,Uganda,0.3136,32.5811,Murchison Bay Sunset Boat Tour from Entebbe Road,Relaxed,35.98,31.294999999999998,0.8187692307692308,Mid/Small,Relaxation
+Novosibirsk,Russia,55.05,82.95,Explore the Novosibirsk State Art Museum's Russian avant-garde collection,Moderate,32.26,31.765,1.0884093282283327,Mid/Small,Culture
+Novosibirsk,Russia,55.05,82.95,"Visit the Novosibirsk Zoo, one of Russia's largest zoological parks",Moderate,32.26,31.765,1.0884093282283327,Mid/Small,Family
+Novosibirsk,Russia,55.05,82.95,Kayaking and camping along the Ob River,Fast,32.26,31.765,1.0884093282283327,Mid/Small,Adventure
+Novosibirsk,Russia,55.05,82.95,Stay in budget hostels and explore Lenin Square and local street markets,Moderate,32.26,31.765,1.0884093282283327,Mid/Small,Budget
+Novosibirsk,Russia,55.05,82.95,Attend performances at the Novosibirsk Academic Opera and Ballet Theatre,Relaxed,32.26,31.765,1.0884093282283327,Mid/Small,Culture
+Novosibirsk,Russia,55.05,82.95,Spa and wellness retreat at a local health resort near Akademgorodok,Relaxed,32.26,31.765,1.0884093282283327,Mid/Small,Relaxation
+Novosibirsk,Russia,55.05,82.95,Fine dining at high-end restaurants in the city center with luxury hotel accommodation,Relaxed,32.26,31.765,1.0884093282283327,Mid/Small,Luxury
+Novosibirsk,Russia,55.05,82.95,Hiking and nature exploration in the Akademgorodok pine forests,Fast,32.26,31.765,1.0884093282283327,Mid/Small,Adventure
+Valencia,Spain,39.47,-0.3764,City of Arts and Sciences exploration,Moderate,52.97,54.075,1.2170269078076752,Mid/Small,Culture
+Valencia,Spain,39.47,-0.3764,Turia Gardens cycling and walking,Relaxed,52.97,54.075,1.2170269078076752,Mid/Small,Relaxation
+Valencia,Spain,39.47,-0.3764,Paella cooking class in traditional kitchen,Moderate,52.97,54.075,1.2170269078076752,Mid/Small,Culture
+Valencia,Spain,39.47,-0.3764,Beach day at Malvarrosa with budget accommodations,Relaxed,52.97,54.075,1.2170269078076752,Mid/Small,Budget
+Valencia,Spain,39.47,-0.3764,Fine dining at Michelin-starred restaurants,Moderate,52.97,54.075,1.2170269078076752,Mid/Small,Luxury
+Valencia,Spain,39.47,-0.3764,Bioparc Valencia wildlife park visit,Moderate,52.97,54.075,1.2170269078076752,Mid/Small,Family
+Valencia,Spain,39.47,-0.3764,Historic Old Town wandering and local tapas hopping,Fast,52.97,54.075,1.2170269078076752,Mid/Small,Budget
+Valencia,Spain,39.47,-0.3764,Beachfront resort spa and Mediterranean sunset experience,Relaxed,52.97,54.075,1.2170269078076752,Mid/Small,Luxury
+Harare,Zimbabwe,-17.8292,31.0522,Harare National Gallery visit and colonial architecture tour,Moderate,45.69,42.37,1.0539811066126856,Mid/Small,Culture
+Harare,Zimbabwe,-17.8292,31.0522,Chinhoyi Caves exploration and underground lake swimming,Fast,45.69,42.37,1.0539811066126856,Mid/Small,Adventure
+Harare,Zimbabwe,-17.8292,31.0522,Lake Chivero Recreational Park boating and picnicking,Relaxed,45.69,42.37,1.0539811066126856,Mid/Small,Relaxation
+Harare,Zimbabwe,-17.8292,31.0522,Zimbabwe Museum of Human Sciences artifact viewing,Moderate,45.69,42.37,1.0539811066126856,Mid/Small,Culture
+Harare,Zimbabwe,-17.8292,31.0522,Domboshava rock formations hiking and San rock art sites,Fast,45.69,42.37,1.0539811066126856,Mid/Small,Adventure
+Harare,Zimbabwe,-17.8292,31.0522,Harare street food markets and local vendor exploration on budget,Moderate,45.69,42.37,1.0539811066126856,Mid/Small,Budget
+Harare,Zimbabwe,-17.8292,31.0522,Meikles Hotel fine dining and Harare Gardens luxury relaxation,Relaxed,45.69,42.37,1.0539811066126856,Mid/Small,Luxury
+Harare,Zimbabwe,-17.8292,31.0522,Harare Zoo visit with children and Botanical Gardens family walk,Moderate,45.69,42.37,1.0539811066126856,Mid/Small,Family
+San Jose,Costa Rica,9.9325,-84.08,Hiking Cerro de la Muerte,Fast,47.65,45.405,0.9354139575205894,Mid/Small,Adventure
+San Jose,Costa Rica,9.9325,-84.08,Visiting Museo Nacional de Costa Rica,Moderate,47.65,45.405,0.9354139575205894,Mid/Small,Culture
+San Jose,Costa Rica,9.9325,-84.08,Spa day at local wellness centers,Relaxed,47.65,45.405,0.9354139575205894,Mid/Small,Relaxation
+San Jose,Costa Rica,9.9325,-84.08,Exploring Central Market (Mercado Central),Moderate,47.65,45.405,0.9354139575205894,Mid/Small,Budget
+San Jose,Costa Rica,9.9325,-84.08,Fine dining at upscale restaurants in Barrio Escalante,Relaxed,47.65,45.405,0.9354139575205894,Mid/Small,Luxury
+San Jose,Costa Rica,9.9325,-84.08,Family visit to La Sabana Park with picnic,Moderate,47.65,45.405,0.9354139575205894,Mid/Small,Family
+San Jose,Costa Rica,9.9325,-84.08,Coffee plantation tour in nearby Tarrazú region,Fast,47.65,45.405,0.9354139575205894,Mid/Small,Culture
+San Jose,Costa Rica,9.9325,-84.08,Zip-lining through cloud forests near San José,Fast,47.65,45.405,0.9354139575205894,Mid/Small,Adventure
+San Salvador,El Salvador,13.6989,-89.1914,Explore Monumento al Divino Salvador del Mundo,Moderate,45.32,41.215,0.834495165279964,Mid/Small,Culture
+San Salvador,El Salvador,13.6989,-89.1914,Hiking in El Boquerón National Park,Fast,45.32,41.215,0.834495165279964,Mid/Small,Adventure
+San Salvador,El Salvador,13.6989,-89.1914,Visit Museo Nacional de Antropología David J. Guzmán,Moderate,45.32,41.215,0.834495165279964,Mid/Small,Culture
+San Salvador,El Salvador,13.6989,-89.1914,Budget street food tour in Mercado Central,Relaxed,45.32,41.215,0.834495165279964,Mid/Small,Budget
+San Salvador,El Salvador,13.6989,-89.1914,Relax at nearby Sunzal Beach day trip,Relaxed,45.32,41.215,0.834495165279964,Mid/Small,Relaxation
+San Salvador,El Salvador,13.6989,-89.1914,Fine dining at upscale restaurants in Zona Rosa,Moderate,45.32,41.215,0.834495165279964,Mid/Small,Luxury
+San Salvador,El Salvador,13.6989,-89.1914,Family visit to Parque Infantil La Laguna,Moderate,45.32,41.215,0.834495165279964,Mid/Small,Family
+San Salvador,El Salvador,13.6989,-89.1914,Explore historic downtown colonial architecture walking tour,Fast,45.32,41.215,0.834495165279964,Mid/Small,Culture
+Amsterdam,Netherlands,52.3728,4.8936,Canal boat tour through Amsterdam's historic waterways,Relaxed,80.82,83.205,1.3280062063615206,Mid/Small,Relaxation
+Amsterdam,Netherlands,52.3728,4.8936,Anne Frank House and Jewish Historical Museum visit,Moderate,80.82,83.205,1.3280062063615206,Mid/Small,Culture
+Amsterdam,Netherlands,52.3728,4.8936,Cycling along Amsterdam's extensive bike routes to Zaanse Schans,Fast,80.82,83.205,1.3280062063615206,Mid/Small,Adventure
+Amsterdam,Netherlands,52.3728,4.8936,Van Gogh Museum and Rijksmuseum exploration,Moderate,80.82,83.205,1.3280062063615206,Mid/Small,Culture
+Amsterdam,Netherlands,52.3728,4.8936,Budget hostel stay with street food exploration in De Pijp district,Fast,80.82,83.205,1.3280062063615206,Mid/Small,Budget
+Amsterdam,Netherlands,52.3728,4.8936,Five-star hotel stay with Michelin-starred dining at Librije or Vinkeles,Relaxed,80.82,83.205,1.3280062063615206,Mid/Small,Luxury
+Amsterdam,Netherlands,52.3728,4.8936,Family visit to NDSM wharf creative quarter with children's activities and markets,Moderate,80.82,83.205,1.3280062063615206,Mid/Small,Family
+Amsterdam,Netherlands,52.3728,4.8936,Hiking and kayaking adventure in Waterland nature reserve near Amsterdam,Fast,80.82,83.205,1.3280062063615206,Mid/Small,Adventure
+Auckland,New Zealand,-36.8492,174.7653,Sky Tower observation deck and fine dining,Relaxed,80.19,79.64,1.0518685995478123,Mid/Small,Luxury
+Auckland,New Zealand,-36.8492,174.7653,Hiking Rangitoto Island volcano,Fast,80.19,79.64,1.0518685995478123,Mid/Small,Adventure
+Auckland,New Zealand,-36.8492,174.7653,Auckland War Memorial Museum exploration,Moderate,80.19,79.64,1.0518685995478123,Mid/Small,Culture
+Auckland,New Zealand,-36.8492,174.7653,Beach relaxation at Piha Beach,Relaxed,80.19,79.64,1.0518685995478123,Mid/Small,Relaxation
+Auckland,New Zealand,-36.8492,174.7653,Auckland Zoo visit with family,Moderate,80.19,79.64,1.0518685995478123,Mid/Small,Family
+Auckland,New Zealand,-36.8492,174.7653,Waitemata Harbour sailing adventure,Fast,80.19,79.64,1.0518685995478123,Mid/Small,Adventure
+Auckland,New Zealand,-36.8492,174.7653,Viaduct Harbour budget dining and street exploration,Moderate,80.19,79.64,1.0518685995478123,Mid/Small,Budget
+Auckland,New Zealand,-36.8492,174.7653,Spa day at luxury wellness retreat in central Auckland,Relaxed,80.19,79.64,1.0518685995478123,Mid/Small,Luxury
+Dakar,Senegal,14.6726,-17.432,Île de Gorée historical tour and slave trade museum exploration,Moderate,50.87,48.754999999999995,1.087686567164179,Mid/Small,Culture
+Dakar,Senegal,14.6726,-17.432,Surfing at Ngor Beach and coastal water sports,Fast,50.87,48.754999999999995,1.087686567164179,Mid/Small,Adventure
+Dakar,Senegal,14.6726,-17.432,Relaxation at Plage de Yoff with beachside dining,Relaxed,50.87,48.754999999999995,1.087686567164179,Mid/Small,Relaxation
+Dakar,Senegal,14.6726,-17.432,Dakar Grand Mosque and Medina neighborhood cultural walking tour,Moderate,50.87,48.754999999999995,1.087686567164179,Mid/Small,Culture
+Dakar,Senegal,14.6726,-17.432,Budget street food tour through Sandaga Market and local eateries,Moderate,50.87,48.754999999999995,1.087686567164179,Mid/Small,Budget
+Dakar,Senegal,14.6726,-17.432,Luxury dining and sunset experience at Almadies peninsula resorts,Relaxed,50.87,48.754999999999995,1.087686567164179,Mid/Small,Luxury
+Dakar,Senegal,14.6726,-17.432,Family visit to Dakar Zoo and Hann Park botanical gardens,Moderate,50.87,48.754999999999995,1.087686567164179,Mid/Small,Family
+Dakar,Senegal,14.6726,-17.432,Desert safari adventure to Lac Rose pink lake with dune exploration,Fast,50.87,48.754999999999995,1.087686567164179,Mid/Small,Adventure
+Muscat,Oman,23.6139,58.5922,Muscat Corniche waterfront promenade walk,Relaxed,51.24,49.870000000000005,1.0288502333474756,Mid/Small,Relaxation
+Muscat,Oman,23.6139,58.5922,Sultan Qaboos Grand Mosque architectural tour,Moderate,51.24,49.870000000000005,1.0288502333474756,Mid/Small,Culture
+Muscat,Oman,23.6139,58.5922,Wadi Shab canyon hiking and swimming,Fast,51.24,49.870000000000005,1.0288502333474756,Mid/Small,Adventure
+Muscat,Oman,23.6139,58.5922,Al Alam Palace exterior viewing and photography,Moderate,51.24,49.870000000000005,1.0288502333474756,Mid/Small,Culture
+Muscat,Oman,23.6139,58.5922,Mutrah Souq traditional market exploration,Moderate,51.24,49.870000000000005,1.0288502333474756,Mid/Small,Budget
+Muscat,Oman,23.6139,58.5922,Khareef season beach relaxation at Salalah day trip,Relaxed,51.24,49.870000000000005,1.0288502333474756,Mid/Small,Relaxation
+Muscat,Oman,23.6139,58.5922,Muscat family-friendly beach resort experience,Moderate,51.24,49.870000000000005,1.0288502333474756,Mid/Small,Family
+Muscat,Oman,23.6139,58.5922,Five-star dhow cruise dinner with coastal views,Relaxed,51.24,49.870000000000005,1.0288502333474756,Mid/Small,Luxury
+Sofia,Bulgaria,42.6979,23.3217,Alexander Nevsky Cathedral exploration and Orthodox religious tours,Relaxed,42.24,40.495000000000005,1.056434023991276,Mid/Small,Culture
+Sofia,Bulgaria,42.6979,23.3217,Vitosha Mountain hiking and outdoor trekking,Fast,42.24,40.495000000000005,1.056434023991276,Mid/Small,Adventure
+Sofia,Bulgaria,42.6979,23.3217,National Archaeological Museum artifact viewing and history study,Moderate,42.24,40.495000000000005,1.056434023991276,Mid/Small,Culture
+Sofia,Bulgaria,42.6979,23.3217,Budget hostel stays and street food sampling in Women's Bazaar,Fast,42.24,40.495000000000005,1.056434023991276,Mid/Small,Budget
+Sofia,Bulgaria,42.6979,23.3217,Boyana Church frescoes and medieval art appreciation,Moderate,42.24,40.495000000000005,1.056434023991276,Mid/Small,Culture
+Sofia,Bulgaria,42.6979,23.3217,Spa treatments at thermal wellness centers and relaxation retreats,Relaxed,42.24,40.495000000000005,1.056434023991276,Mid/Small,Relaxation
+Sofia,Bulgaria,42.6979,23.3217,Sofia City Garden picnicking and family park activities,Relaxed,42.24,40.495000000000005,1.056434023991276,Mid/Small,Family
+Sofia,Bulgaria,42.6979,23.3217,High-end dining at Michelin-adjacent restaurants and luxury hotel experiences,Moderate,42.24,40.495000000000005,1.056434023991276,Mid/Small,Luxury
+Ulaanbaatar,Mongolia,47.9214,106.9055,Hiking in Bogd Khan Mountain National Park,Moderate,34.86,29.105,0.6459197786998617,Mid/Small,Adventure
+Ulaanbaatar,Mongolia,47.9214,106.9055,Visiting Gandan Monastery and Buddhist temples,Relaxed,34.86,29.105,0.6459197786998617,Mid/Small,Culture
+Ulaanbaatar,Mongolia,47.9214,106.9055,Exploring Sukhbaatar Square and Independence Palace,Fast,34.86,29.105,0.6459197786998617,Mid/Small,Culture
+Ulaanbaatar,Mongolia,47.9214,106.9055,Staying in traditional ger camps on the outskirts,Relaxed,34.86,29.105,0.6459197786998617,Mid/Small,Relaxation
+Ulaanbaatar,Mongolia,47.9214,106.9055,Bargain shopping at Narantuul (Black Market) and local markets,Fast,34.86,29.105,0.6459197786998617,Mid/Small,Budget
+Ulaanbaatar,Mongolia,47.9214,106.9055,Dining at upscale restaurants and staying in premium hotels,Moderate,34.86,29.105,0.6459197786998617,Mid/Small,Luxury
+Ulaanbaatar,Mongolia,47.9214,106.9055,Visiting the National Museum of Mongolia with family,Moderate,34.86,29.105,0.6459197786998617,Mid/Small,Family
+Ulaanbaatar,Mongolia,47.9214,106.9055,Rock climbing and outdoor sports in nearby Terelj National Park,Fast,34.86,29.105,0.6459197786998617,Mid/Small,Adventure
+Adelaide,Australia,-34.9275,138.6,Hiking in the Adelaide Hills,Moderate,76.59,72.155,0.8672045076194135,Mid/Small,Adventure
+Adelaide,Australia,-34.9275,138.6,Wine tasting at Barossa Valley vineyards,Relaxed,76.59,72.155,0.8672045076194135,Mid/Small,Luxury
+Adelaide,Australia,-34.9275,138.6,Exploring the South Australian Museum,Moderate,76.59,72.155,0.8672045076194135,Mid/Small,Culture
+Adelaide,Australia,-34.9275,138.6,Swimming and sunbathing at Glenelg Beach,Relaxed,76.59,72.155,0.8672045076194135,Mid/Small,Relaxation
+Adelaide,Australia,-34.9275,138.6,Visiting Taronga Zoo Adelaide with family,Moderate,76.59,72.155,0.8672045076194135,Mid/Small,Family
+Adelaide,Australia,-34.9275,138.6,Exploring Central Market for local produce and street food,Fast,76.59,72.155,0.8672045076194135,Mid/Small,Budget
+Adelaide,Australia,-34.9275,138.6,Kayaking on the Torrens River,Moderate,76.59,72.155,0.8672045076194135,Mid/Small,Adventure
+Adelaide,Australia,-34.9275,138.6,Attending performances at Adelaide Festival Theatre,Relaxed,76.59,72.155,0.8672045076194135,Mid/Small,Culture
+Prague,Czechia,50.0875,14.4214,Prague Castle Complex Tour,Moderate,51.78,47.144999999999996,0.9406948439920336,Mid/Small,Culture
+Prague,Czechia,50.0875,14.4214,Charles Bridge Walking Experience,Relaxed,51.78,47.144999999999996,0.9406948439920336,Mid/Small,Culture
+Prague,Czechia,50.0875,14.4214,Old Town Square and Astronomical Clock,Fast,51.78,47.144999999999996,0.9406948439920336,Mid/Small,Budget
+Prague,Czechia,50.0875,14.4214,Vltava River Boat Cruise,Relaxed,51.78,47.144999999999996,0.9406948439920336,Mid/Small,Relaxation
+Prague,Czechia,50.0875,14.4214,Jewish Quarter Historical District Exploration,Moderate,51.78,47.144999999999996,0.9406948439920336,Mid/Small,Culture
+Prague,Czechia,50.0875,14.4214,Prague Beer Spa Experience,Relaxed,51.78,47.144999999999996,0.9406948439920336,Mid/Small,Luxury
+Prague,Czechia,50.0875,14.4214,Petřín Lookout Tower Hiking,Fast,51.78,47.144999999999996,0.9406948439920336,Mid/Small,Adventure
+Prague,Czechia,50.0875,14.4214,St. Vitus Cathedral and Grounds Visit,Moderate,51.78,47.144999999999996,0.9406948439920336,Mid/Small,Family
+Copenhagen,Denmark,55.6805,12.5615,Tivoli Gardens theme park exploration,Moderate,88.34,97.18,1.4830046160302142,Mid/Small,Family
+Copenhagen,Denmark,55.6805,12.5615,Rosenborg Castle and royal history tour,Relaxed,88.34,97.18,1.4830046160302142,Mid/Small,Culture
+Copenhagen,Denmark,55.6805,12.5615,Nyhavn waterfront dining and canal boat tours,Relaxed,88.34,97.18,1.4830046160302142,Mid/Small,Luxury
+Copenhagen,Denmark,55.6805,12.5615,Christiania neighborhood alternative culture visit,Moderate,88.34,97.18,1.4830046160302142,Mid/Small,Culture
+Copenhagen,Denmark,55.6805,12.5615,Stroget pedestrian street budget shopping and street food,Fast,88.34,97.18,1.4830046160302142,Mid/Small,Budget
+Copenhagen,Denmark,55.6805,12.5615,Copenhagen Bike Tours through city neighborhoods,Fast,88.34,97.18,1.4830046160302142,Mid/Small,Adventure
+Copenhagen,Denmark,55.6805,12.5615,Amalienborg Palace and Danish royal guard ceremony,Moderate,88.34,97.18,1.4830046160302142,Mid/Small,Culture
+Copenhagen,Denmark,55.6805,12.5615,Frederiksborg Castle day trip and lakeside relaxation,Relaxed,88.34,97.18,1.4830046160302142,Mid/Small,Relaxation
+Helsinki,Finland,60.1708,24.9375,Suomenlinna Sea Fortress exploration and island hopping,Moderate,77.17,80.455,1.2014347202295552,Mid/Small,Adventure
+Helsinki,Finland,60.1708,24.9375,Sauna culture experience at traditional Finnish saunas,Relaxed,77.17,80.455,1.2014347202295552,Mid/Small,Relaxation
+Helsinki,Finland,60.1708,24.9375,National Museum of Finland and Design Museum visits,Moderate,77.17,80.455,1.2014347202295552,Mid/Small,Culture
+Helsinki,Finland,60.1708,24.9375,Budget hostel stays and street food at Market Square,Fast,77.17,80.455,1.2014347202295552,Mid/Small,Budget
+Helsinki,Finland,60.1708,24.9375,Luxury dining at Michelin-starred restaurants in Kallio district,Relaxed,77.17,80.455,1.2014347202295552,Mid/Small,Luxury
+Helsinki,Finland,60.1708,24.9375,Moomin Museum and Linnanmaki amusement park visits,Fast,77.17,80.455,1.2014347202295552,Mid/Small,Family
+Helsinki,Finland,60.1708,24.9375,Winter activities at frozen Baltic Sea and ice swimming,Moderate,77.17,80.455,1.2014347202295552,Mid/Small,Adventure
+Helsinki,Finland,60.1708,24.9375,Helsinki Cathedral and Uspenski Cathedral architectural tours,Moderate,77.17,80.455,1.2014347202295552,Mid/Small,Culture
+Milan,Italy,45.4669,9.19,Duomo di Milano Cathedral Tour,Moderate,74.8,77.58500000000001,1.2791660035015122,Mid/Small,Culture
+Milan,Italy,45.4669,9.19,Galleria Vittorio Emanuele II Shopping,Fast,74.8,77.58500000000001,1.2791660035015122,Mid/Small,Luxury
+Milan,Italy,45.4669,9.19,Last Supper (Cenacolo) at Santa Maria delle Grazie,Relaxed,74.8,77.58500000000001,1.2791660035015122,Mid/Small,Culture
+Milan,Italy,45.4669,9.19,Navigli District Canal Walk and Street Food,Moderate,74.8,77.58500000000001,1.2791660035015122,Mid/Small,Budget
+Milan,Italy,45.4669,9.19,Sforza Castle and Pinacoteca di Brera Museum,Moderate,74.8,77.58500000000001,1.2791660035015122,Mid/Small,Culture
+Milan,Italy,45.4669,9.19,Monumental Cemetery (Cimitero Monumentale) Art Exploration,Relaxed,74.8,77.58500000000001,1.2791660035015122,Mid/Small,Culture
+Milan,Italy,45.4669,9.19,Fashion District Shopping and Milan Fashion Week Events,Fast,74.8,77.58500000000001,1.2791660035015122,Mid/Small,Luxury
+Milan,Italy,45.4669,9.19,Sempione Park Picnic and Family Activities,Relaxed,74.8,77.58500000000001,1.2791660035015122,Mid/Small,Family
+Santiago,Dominican Republic,19.4572,-70.6889,Hiking Pico Duarte,Fast,45.64,46.78,1.1944167497507479,Mid/Small,Adventure
+Santiago,Dominican Republic,19.4572,-70.6889,Beach relaxation at Playa Dorada,Relaxed,45.64,46.78,1.1944167497507479,Mid/Small,Relaxation
+Santiago,Dominican Republic,19.4572,-70.6889,Catedral Metropolitana de Santiago de los Treinta Caballeros tour,Moderate,45.64,46.78,1.1944167497507479,Mid/Small,Culture
+Santiago,Dominican Republic,19.4572,-70.6889,Street food tour in Mercado Viejo,Moderate,45.64,46.78,1.1944167497507479,Mid/Small,Budget
+Santiago,Dominican Republic,19.4572,-70.6889,Spa and resort experience at high-end hotel,Relaxed,45.64,46.78,1.1944167497507479,Mid/Small,Luxury
+Santiago,Dominican Republic,19.4572,-70.6889,Parque Central playground and local market visit,Moderate,45.64,46.78,1.1944167497507479,Mid/Small,Family
+Santiago,Dominican Republic,19.4572,-70.6889,Canyoning in Rio Yaque del Norte,Fast,45.64,46.78,1.1944167497507479,Mid/Small,Adventure
+Santiago,Dominican Republic,19.4572,-70.6889,Museum of Santiago and colonial architecture walking tour,Moderate,45.64,46.78,1.1944167497507479,Mid/Small,Culture
+Porto Alegre,Brazil,-30.0328,-51.23,Explore Mercado Público historic market and sample local cuisine,Relaxed,32.33,28.65,0.8279177718832891,Mid/Small,Culture
+Porto Alegre,Brazil,-30.0328,-51.23,Kayaking on Guaíba Lake with sunset views,Moderate,32.33,28.65,0.8279177718832891,Mid/Small,Adventure
+Porto Alegre,Brazil,-30.0328,-51.23,Visit Museu de Arte do Rio Grande do Sul (MARGS),Moderate,32.33,28.65,0.8279177718832891,Mid/Small,Culture
+Porto Alegre,Brazil,-30.0328,-51.23,Budget hostel stay in Cidade Baixa neighborhood with street food exploration,Fast,32.33,28.65,0.8279177718832891,Mid/Small,Budget
+Porto Alegre,Brazil,-30.0328,-51.23,Luxury dining at Michelin-recommended restaurants in Moinhos de Vento,Relaxed,32.33,28.65,0.8279177718832891,Mid/Small,Luxury
+Porto Alegre,Brazil,-30.0328,-51.23,Family visit to Jardim Botânico (Botanical Garden) with picnic,Relaxed,32.33,28.65,0.8279177718832891,Mid/Small,Family
+Porto Alegre,Brazil,-30.0328,-51.23,Hiking in Parque Natural Morro do Osso with panoramic city views,Moderate,32.33,28.65,0.8279177718832891,Mid/Small,Adventure
+Porto Alegre,Brazil,-30.0328,-51.23,Relax at Praia de Bom Fim beach and nearby spa resorts,Relaxed,32.33,28.65,0.8279177718832891,Mid/Small,Relaxation
+Barranquilla,Colombia,10.9833,-74.8019,Explore Castillo San Felipe de Barajas fortress,Moderate,28.42,23.29,0.7077162899454403,Mid/Small,Culture
+Barranquilla,Colombia,10.9833,-74.8019,Beach relaxation at Playa Blanca day trip,Relaxed,28.42,23.29,0.7077162899454403,Mid/Small,Relaxation
+Barranquilla,Colombia,10.9833,-74.8019,Street food tour through El Mercado neighborhood,Fast,28.42,23.29,0.7077162899454403,Mid/Small,Budget
+Barranquilla,Colombia,10.9833,-74.8019,Caribbean water sports and kiteboarding at Bocagrande,Fast,28.42,23.29,0.7077162899454403,Mid/Small,Adventure
+Barranquilla,Colombia,10.9833,-74.8019,Colonial architecture walking tour of Getsemani district,Moderate,28.42,23.29,0.7077162899454403,Mid/Small,Culture
+Barranquilla,Colombia,10.9833,-74.8019,Luxury beachfront resort stay with water activities,Relaxed,28.42,23.29,0.7077162899454403,Mid/Small,Luxury
+Barranquilla,Colombia,10.9833,-74.8019,Family-friendly visit to Rosario Islands snorkeling,Moderate,28.42,23.29,0.7077162899454403,Mid/Small,Family
+Barranquilla,Colombia,10.9833,-74.8019,Budget hostel stay with local market exploration and street art,Fast,28.42,23.29,0.7077162899454403,Mid/Small,Budget
+Calgary,Canada,51.05,-114.0667,Banff National Park day trip from Calgary,Fast,73.4,72.745,1.0289751641450187,Mid/Small,Adventure
+Calgary,Canada,51.05,-114.0667,Calgary Stampede experience,Moderate,73.4,72.745,1.0289751641450187,Mid/Small,Family
+Calgary,Canada,51.05,-114.0667,Glenbow Museum exploration,Relaxed,73.4,72.745,1.0289751641450187,Mid/Small,Culture
+Calgary,Canada,51.05,-114.0667,Lake Louise and Moraine Lake scenic drive,Fast,73.4,72.745,1.0289751641450187,Mid/Small,Adventure
+Calgary,Canada,51.05,-114.0667,Calgary Tower and downtown dining,Moderate,73.4,72.745,1.0289751641450187,Mid/Small,Luxury
+Calgary,Canada,51.05,-114.0667,Prince's Island Park picnic and walking trails,Relaxed,73.4,72.745,1.0289751641450187,Mid/Small,Relaxation
+Calgary,Canada,51.05,-114.0667,Heritage Park Historical Village visit,Moderate,73.4,72.745,1.0289751641450187,Mid/Small,Family
+Calgary,Canada,51.05,-114.0667,Calgary hostels and budget street food exploration,Moderate,73.4,72.745,1.0289751641450187,Mid/Small,Budget
+Brussels,Belgium,50.8467,4.3525,Grand Place guided tour and architecture photography,Moderate,74.39,75.695,1.1902921626217344,Mid/Small,Culture
+Brussels,Belgium,50.8467,4.3525,Belgian chocolate making workshop at Neuhaus,Relaxed,74.39,75.695,1.1902921626217344,Mid/Small,Luxury
+Brussels,Belgium,50.8467,4.3525,Atomium visit and atomic science museum exploration,Fast,74.39,75.695,1.1902921626217344,Mid/Small,Family
+Brussels,Belgium,50.8467,4.3525,Street art walking tour in the Marolles district,Moderate,74.39,75.695,1.1902921626217344,Mid/Small,Culture
+Brussels,Belgium,50.8467,4.3525,Budget hostel stay with pub crawl in Rue de Flandre,Fast,74.39,75.695,1.1902921626217344,Mid/Small,Budget
+Brussels,Belgium,50.8467,4.3525,Spa day at Thermes de Spa with Belgian beer tasting,Relaxed,74.39,75.695,1.1902921626217344,Mid/Small,Relaxation
+Brussels,Belgium,50.8467,4.3525,Comic book museum and Belgian comic strip heritage tour,Moderate,74.39,75.695,1.1902921626217344,Mid/Small,Culture
+Brussels,Belgium,50.8467,4.3525,Cycling adventure through Brussels Forest and Waterloo battlefield,Fast,74.39,75.695,1.1902921626217344,Mid/Small,Adventure
