@@ -1,13 +1,11 @@
 from pydantic import BaseModel, Field
 
-class WeatherRequest(BaseModel):
-    """Schema for validating LLM/Agent inputs to the weather tool."""
-    city: str = Field(..., description="The name of the city to get weather for.")
-
 class WeatherResponse(BaseModel):
-    """Schema for structured weather output returned to the agent."""
-    city: str
-    temperature: float
-    description: str
-    humidity: int
-    wind_speed: float
+    city: str = Field(description="The name of the city.")
+    description: str = Field(description="A brief description of the weather (e.g., Broken clouds).")
+    temperature_c: float = Field(description="Current temperature in Celsius.")
+    feels_like_c: float = Field(description="Feels-like temperature in Celsius.")
+    
+    def to_agent_string(self) -> str:
+        """Helper method to format the data into a clean string for the LLM context."""
+        return f"Current live weather in {self.city}: {self.description}, {self.temperature_c}°C (Feels like {self.feels_like_c}°C)."

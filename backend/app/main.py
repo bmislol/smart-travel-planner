@@ -1,9 +1,11 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
+import httpx
 
 # Import our singletons
 from app.services.embedder import embedder
 from app.services.classifier_service import classifier_service
+from app.services.weather_service import weather_service
 from app.db.session import engine
 
 @asynccontextmanager
@@ -14,13 +16,18 @@ async def lifespan(app: FastAPI):
     print("Embedding model ready.")
 
     print("Loading ML Classifier into memory...")
-    classifier_service.load_model() # <-- NEW
+    classifier_service.load_model()
     print("ML Classifier ready.")
+
+    print("Starting global HTTP client for APIs...")
+    weather_service.client = httpx.AsyncClient() 
+    print("All systems ready.")
 
     yield # The application handles requests while yielding here
 
     # --- SHUTDOWN ---
     print("Shutting down Smart Travel Planner...")
+    await weather_service.client.aclose() # <-- Securely close the HTTP client
     await engine.dispose() # Cleanly close DB connections
 
 app = FastAPI(lifespan=lifespan, title="Smart Travel Planner API")
