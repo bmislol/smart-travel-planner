@@ -55,10 +55,24 @@ class AgentLog(Base):
 class Destination(Base):
     __tablename__ = "destinations"
     
-    id: Mapped[int] = mapped_column(primary_key=True)
-    name: Mapped[str] = mapped_column(String(100))
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    name: Mapped[str] = mapped_column(String(100), unique=True, nullable=False)
     description: Mapped[str] = mapped_column(Text)
-    travel_style: Mapped[str] = mapped_column(String(50)) # Your ML label
+    travel_style: Mapped[str] = mapped_column(String(50))
+    
+    # One destination has many chunks
+    chunks: Mapped[List["DestinationChunk"]] = relationship(back_populates="destination", cascade="all, delete-orphan")
+
+class DestinationChunk(Base):
+    __tablename__ = "destination_chunks"
+    
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    destination_id: Mapped[int] = mapped_column(ForeignKey("destinations.id", ondelete="CASCADE"))
+    
+    # The actual text chunk
+    content: Mapped[str] = mapped_column(Text, nullable=False)
     
     # Vector size 768 for all-mpnet-base-v2
     embedding: Mapped[Vector] = mapped_column(Vector(768))
+
+    destination: Mapped["Destination"] = relationship(back_populates="chunks")

@@ -1,9 +1,13 @@
+import os
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from pydantic import PostgresDsn, Field
 
+BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ENV_PATH = os.path.join(BACKEND_DIR, ".env")
+
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
-        env_file=".env", 
+        env_file=ENV_PATH, 
         env_file_encoding="utf-8",
         extra="ignore"
     )
@@ -24,11 +28,11 @@ class Settings(BaseSettings):
     WEATHER_API_KEY: str
     
     # Model Routing (Defaults to the 2026 versions)
-    STRONG_MODEL: str = "claude-4-6-sonnet"
-    CHEAP_MODEL: str = "claude-4-5-haiku"
+    STRONG_MODEL: str = "claude-3-5-sonnet-latest"
+    CHEAP_MODEL: str = "claude-3-haiku-20240307"
     
     # ML & RAG (Hardware: RTX 3060)
-    EMBEDDING_MODEL_NAME: str = "all-MiniLM-L6-v2"
+    EMBEDDING_MODEL_NAME: str = "all-mpnet-base-v2"
     CLASSIFIER_MODEL_PATH: str = "../data/models/winner_model.joblib"
 
 # Singleton instance used across the app
