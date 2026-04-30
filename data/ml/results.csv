@@ -5,3 +5,4 @@ timestamp,model,params,accuracy_mean,accuracy_std,f1_macro_mean,f1_macro_std
 2026-04-28 23:09:12,Logistic Regression,default_baseline,0.7948,0.1148,0.7716,0.1183
 2026-04-28 23:09:12,Random Forest,default_baseline,0.8978,0.0686,0.8864,0.0748
 2026-04-28 23:09:13,HistGradient Boosting,default_baseline,0.9169,0.0602,0.9039,0.0643
+2026-04-30 17:40:26,RandomForestClassifier,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 2, 'classifier__n_estimators': 100}",0.8005798455933008,0.019790886918115435,0.8526,Pending Final Agent Evaluation
