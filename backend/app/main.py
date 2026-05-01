@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import httpx
 
@@ -33,6 +34,17 @@ async def lifespan(app: FastAPI):
     await engine.dispose() # Cleanly close DB connections
 
 app = FastAPI(lifespan=lifespan, title="Smart Travel Planner API")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173", 
+        "http://127.0.0.1:5173"
+    ], # Allows your React frontend to connect
+    allow_credentials=True,
+    allow_methods=["*"], # Allows POST, GET, OPTIONS, etc.
+    allow_headers=["*"], # Allows Authorization headers (for our JWT)
+)
 
 # Include our API routers
 app.include_router(auth.router, prefix="/api/auth", tags=["Authentication"])

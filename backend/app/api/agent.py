@@ -2,6 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 from langchain_core.messages import HumanMessage
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select, desc
 
 from app.api.deps import get_current_user
 from app.db.session import get_db 
@@ -61,3 +62,18 @@ async def chat_with_agent(
     except Exception as e:
         print(f"❌ Agent Error: {e}")
         raise HTTPException(status_code=500, detail=f"Agent encountered an error: {str(e)}")
+    
+@router.get("/chats")
+async def get_user_chats(
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db)
+):
+    try:
+        # Fetch all chats for this user, newest first
+        query = select(Chat).where(Chat.user_id == current_user.id).order_by(desc(Chat.created_at))
+        result = await db.execute(query)
+        chats = result.scalars().all()
+        
+        return [{"id": str(c.id), "title": c.title} for c in chats]
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to fetch chat history")
