@@ -32,6 +32,29 @@ const Chat = () => {
     fetchChats();
   }, []);
 
+  // Fetch a specific chat's full history
+  const loadChatHistory = async (chatId) => {
+    try {
+      setIsLoading(true);
+      const response = await api.get(`/agent/chats/${chatId}/messages`);
+      
+      if (response.data && response.data.length > 0) {
+        setMessages(response.data);
+      } else {
+        setMessages([{ role: 'ai', content: "*(No messages found for this chat.)*" }]);
+      }
+      
+      // Close sidebar on mobile after clicking
+      if (window.innerWidth < 768) setSidebarOpen(false);
+      
+    } catch (error) {
+      console.error("Failed to load history", error);
+      setMessages([{ role: 'ai', content: "*(Error loading chat history.)*" }]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   // Auto-scroll to the bottom when new messages arrive
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -118,13 +141,7 @@ const Chat = () => {
             recentTrips.map((trip) => (
               <button 
                 key={trip.id}
-                onClick={() => {
-                  // For now, this just updates the main window with the title. 
-                  setMessages([
-                    { role: 'user', content: trip.title },
-                    { role: 'ai', content: "*(Loading full chat history requires LangGraph checkpointing!)*" }
-                  ]);
-                }}
+                onClick={() => loadChatHistory(trip.id)}
                 className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-ev-hover text-left transition-colors"
               >
                 <MessageSquare size={16} className="text-ev-muted flex-shrink-0" />

@@ -30,6 +30,18 @@ class Chat(Base):
     
     user: Mapped["User"] = relationship(back_populates="chats")
     logs: Mapped[List["AgentLog"]] = relationship(back_populates="chat", cascade="all, delete-orphan")
+    messages: Mapped[List["Message"]] = relationship(back_populates="chat", cascade="all, delete-orphan")
+
+class Message(Base):
+    __tablename__ = "messages"
+    
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    chat_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("chats.id", ondelete="CASCADE"))
+    role: Mapped[str] = mapped_column(String(10)) # Will be "user" or "ai"
+    content: Mapped[str] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+    chat: Mapped["Chat"] = relationship(back_populates="messages")
 
 class AgentLog(Base):
     __tablename__ = "agent_logs"

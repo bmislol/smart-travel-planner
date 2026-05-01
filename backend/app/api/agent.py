@@ -6,7 +6,7 @@ from sqlalchemy import select, desc
 
 from app.api.deps import get_current_user
 from app.db.session import get_db 
-from app.db.models import User, Chat 
+from app.db.models import User, Chat, Message
 from app.agent.graph import app_graph
 
 router = APIRouter()
@@ -63,6 +63,11 @@ async def chat_with_agent(
                 block.get("text", "") for block in final_ai_message if isinstance(block, dict) and block.get("type") == "text"
             )
         
+        user_msg_db = Message(chat_id=new_chat.id, role="user", content=request.message)
+        ai_msg_db = Message(chat_id=new_chat.id, role="ai", content=final_ai_message)
+        db.add_all([user_msg_db, ai_msg_db])
+        await db.commit()
+
         return ChatResponse(reply=final_ai_message)
 
     except Exception as e:
@@ -83,3 +88,20 @@ async def get_user_chats(
         return [{"id": str(c.id), "title": c.title} for c in chats]
     except Exception as e:
         raise HTTPException(status_code=500, detail="Failed to fetch chat history")
+    
+@router.get("/chats/{chat_id}/messages")
+async def get_chat_history(
+    chat_id: str,
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db)
+):
+    try:
+        # Fetch all messages for this specific chat, ordered by creation time
+        query = select(Message).where(Message.chat_id == chat_id).order_by(Message.created_at)
+        result = await db.execute(query)
+        db_messages = result.scalars().all()
+        
+        # Format them for the React frontend
+        return [{"role": msg.role, "content": msg.content} for msg in db_messages]
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to fetch messages")
