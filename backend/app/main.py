@@ -8,7 +8,7 @@ from app.services.classifier_service import classifier_service
 from app.services.weather_service import weather_service
 from app.db.session import engine
 
-from app.api import auth, deps
+from app.api import auth, agent
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -36,6 +36,7 @@ app = FastAPI(lifespan=lifespan, title="Smart Travel Planner API")
 
 # Include our API routers
 app.include_router(auth.router, prefix="/api/auth", tags=["Authentication"])
+app.include_router(agent.router, prefix="/api/agent", tags=["Agent"])
 
 @app.get("/")
 async def health_check():
