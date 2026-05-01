@@ -109,8 +109,8 @@ def should_continue(state: AgentState) -> str:
     if hasattr(last_message, 'tool_calls') and last_message.tool_calls:
         return "tools"
     
-    # If no tools are needed (e.g., general chat), skip tools and go straight to Sonnet
-    return "synthesizer"
+    # FIX: If no tools are needed, Haiku already answered! End the graph here.
+    return END
 
 # 6. Build the Workflow Graph
 workflow = StateGraph(AgentState)
@@ -129,7 +129,7 @@ workflow.add_conditional_edges(
     should_continue,
     {
         "tools": "tools",
-        "synthesizer": "synthesizer"
+        END: END
     }
 )
 

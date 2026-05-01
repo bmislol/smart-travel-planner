@@ -57,6 +57,12 @@ async def chat_with_agent(
             
         final_ai_message = messages[-1].content
         
+        # FIX: If Claude returns a list of blocks instead of a string, extract the text!
+        if isinstance(final_ai_message, list):
+            final_ai_message = "".join(
+                block.get("text", "") for block in final_ai_message if isinstance(block, dict) and block.get("type") == "text"
+            )
+        
         return ChatResponse(reply=final_ai_message)
 
     except Exception as e:
