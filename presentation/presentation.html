@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Travel Planner Presentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #2b3339;
+            --bg-alt: #323c41;
+            --fg: #d3c6aa;
+            --sage: #a7c080;
+            --yellow: #dbbc7f;
+            --border: #414b50;
+            --red: #e67e80;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--fg);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+        .slide {
+            height: 100vh;
+            width: 100vw;
+            display: none;
+            padding: 4rem;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1, h2 {
+            color: var(--sage);
+            font-weight: 700;
+        }
+        .code-font {
+            font-family: 'Fira Code', monospace;
+        }
+        .card {
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 1.5rem;
+        }
+        .image-box {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            background: #1e2326;
+            margin-top: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image-box img {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .controls {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            gap: 1rem;
+            z-index: 100;
+        }
+        .btn {
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+            color: var(--sage);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn:hover {
+            background: var(--sage);
+            color: var(--bg);
+        }
+        .progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: var(--sage);
+            transition: width 0.3s;
+        }
+        .accent-text { color: var(--yellow); }
+        .red-text { color: var(--red); }
+    </style>
+</head>
+<body>
+    <div class="progress" id="progress"></div>
+
+    <!-- Slide 1: Introduction -->
+    <div class="slide active">
+        <h1 class="text-7xl mb-4">🌍 Smart Travel Planner</h1>
+        <p class="text-3xl accent-text">A LangGraph-Powered Two-Model Architecture</p>
+        <div class="mt-12 text-xl opacity-60">Charbel Ghanem</div>
+    </div>
+
+    <!-- Slide 2: Data Part 1 -->
+    <div class="slide">
+        <h2 class="text-5xl mb-8">The Data Foundation</h2>
+        <div class="card">
+            <h3 class="text-2xl mb-4">Hunting, Merging, and Cleaning</h3>
+            <p class="text-lg">Building a robust destination database from scratch required rigorous preparation.</p>
+            <ul class="list-disc list-inside mt-4 space-y-4 opacity-80 text-xl">
+                <li><strong>Sourcing:</strong> Hunting down multiple datasets for locations, activities, and coordinates.</li>
+                <li><strong>Merging:</strong> Combining disparate CSVs into a unified, relational structure.</li>
+                <li><strong>Cleaning:</strong> Handling missing values, standardizing text, and formatting geographic data for spatial relevance.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 3: Data Part 2 (Augmentation) -->
+    <div class="slide">
+        <h2 class="text-5xl mb-8">Data Augmentation with Claude</h2>
+        <div class="grid grid-cols-2 gap-8">
+            <div class="card">
+                <h3 class="text-2xl mb-4">Enriching the Dataset</h3>
+                <p class="text-lg">Standard datasets lack the nuance required for high-quality LLM context.</p>
+                <ul class="list-disc list-inside mt-4 space-y-2 opacity-80">
+                    <li>Used Claude to programmatically generate rich descriptions.</li>
+                    <li>Synthesized realistic travel styles and seasonal data.</li>
+                    <li>Resulted in a highly diverse, dense dataset perfect for semantic search.</li>
+                </ul>
+            </div>
+            <div class="image-box">
+                <!-- Pointing to your specified EDA graph -->
+                <img src="../graph/EDA/class_distribution.png" alt="Data Distribution Graph">
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: RandomForestClassifier -->
+    <div class="slide">
+        <h2 class="text-5xl mb-8">Predicting Travel Styles</h2>
+        <div class="grid grid-cols-2 gap-8">
+            <div class="card">
+                <h3 class="text-2xl mb-4">Random Forest Classifier</h3>
+                <p>Before the LLM generates prose, we mathematically predict the user's optimal travel style.</p>
+                <ul class="list-disc list-inside mt-6 space-y-2 opacity-80">
+                    <li>Trained on our augmented dataset.</li>
+                    <li>Evaluates features like Trip Pace, City Scale, and Budget.</li>
+                    <li>Provides a grounded, statistical anchor for the LLM to use.</li>
+                </ul>
+            </div>
+            <div class="image-box">
+                <!-- Pointing to your specified Confusion Matrix -->
+                <img src="../graph/confusion_matrix.png" alt="Random Forest Confusion Matrix">
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: RAG & Embeddings -->
+    <div class="slide">
+        <h2 class="text-5xl mb-8">Vector Memory (RAG)</h2>
+        <div class="card">
+            <h3 class="text-2xl mb-4">Local Embeddings for Speed</h3>
+            <p>To give the agent instant access to destination knowledge, we built an optimized Retrieval-Augmented Generation pipeline.</p>
+            <ul class="grid grid-cols-2 gap-4 mt-6">
+                <li class="p-4 bg-black/20 rounded">
+                    <strong class="text-sage">Local Embedding Models</strong><br>
+                    <span class="opacity-70 text-sm">Loaded directly into GPU VRAM to avoid API latency.</span>
+                </li>
+                <li class="p-4 bg-black/20 rounded">
+                    <strong class="text-yellow-200">Load-Once Architecture</strong><br>
+                    <span class="opacity-70 text-sm">Vector database and models are initialized at startup, drastically reducing per-query latency.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 6: LangGraph Tools -->
+    <div class="slide">
+        <h2 class="text-5xl mb-8">Agentic Tools</h2>
+        <div class="card">
+            <h3 class="text-2xl mb-4">Giving the LLM Hands</h3>
+            <p class="mb-6">The routing agent (Claude 3.5 Haiku) is equipped with three critical tools it can trigger autonomously:</p>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="p-4 bg-black/20 rounded border border-border">
+                    <h4 class="font-bold text-sage mb-2">1. Live Weather</h4>
+                    <p class="text-sm opacity-70">Fetches real-time meteorological data for dynamic itinerary adjustments.</p>
+                </div>
+                <div class="p-4 bg-black/20 rounded border border-border">
+                    <h4 class="font-bold text-sage mb-2">2. Style Classifier</h4>
+                    <p class="text-sm opacity-70">Triggers the Random Forest model to analyze the user's parameters.</p>
+                </div>
+                <div class="p-4 bg-black/20 rounded border border-border">
+                    <h4 class="font-bold text-sage mb-2">3. Destination Search</h4>
+                    <p class="text-sm opacity-70">Queries the local Vector DB to retrieve mathematically relevant locations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: LangSmith Tracing -->
+    <div class="slide">
+        <h2 class="text-5xl mb-8">Visibility & Security</h2>
+        <div class="grid grid-cols-2 gap-8">
+            <div class="image-box">
+                <!-- Pointing to your specified LangSmith screenshot -->
+                <img src="../graph/langsmith/langsmith_trace.png" alt="LangSmith Execution Trace">
+            </div>
+            <div class="card">
+                <h3 class="text-2xl mb-4">LangSmith Tracing</h3>
+                <p>Full observability into the Two-Model architecture:</p>
+                <ul class="list-disc list-inside mt-4 space-y-2 opacity-80 text-sm">
+                    <li><span class="accent-text">Router (Haiku):</span> Fast, cheap tool selection.</li>
+                    <li><span class="accent-text">Synthesizer (Sonnet):</span> High-quality prose generation.</li>
+                </ul>
+                <h3 class="text-2xl mt-8 mb-4">Data Security</h3>
+                <p class="opacity-80 text-sm">Fully authenticated backend. Chat histories are securely encrypted and tied strictly to user JWT sessions in PostgreSQL.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 8: Live Demo -->
+    <div class="slide text-center">
+        <h2 class="text-7xl mb-8">Live Demo</h2>
+        <p class="text-3xl accent-text">From the Everforest React UI to the LangGraph Engine...</p>
+    </div>
+
+    <!-- Slide 9: Recap & Future Work -->
+    <div class="slide">
+        <h2 class="text-5xl mb-8">Recap & Future Roadmap</h2>
+        <div class="grid grid-cols-2 gap-8">
+            <div class="card">
+                <h3 class="text-2xl mb-4 text-sage">What We Built</h3>
+                <ul class="list-disc list-inside space-y-2 opacity-80">
+                    <li>PostgreSQL Auth & Persistent Memory</li>
+                    <li>Cost-Optimized Two-Model Graph</li>
+                    <li>Custom ML + RAG Tool Integration</li>
+                    <li>Modern Tailwind/React Interface</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 class="text-2xl mb-4 text-yellow-200">Future Work</h3>
+                <ul class="list-disc list-inside space-y-2 opacity-80">
+                    <li>Live Flight & Hotel API Integrations</li>
+                    <li>Multi-Agent collaboration (e.g., separate specialized agents for food, lodging, and transit)</li>
+                    <li>Exporting itineraries to PDF/Calendar</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: Thank You -->
+    <div class="slide text-center">
+        <h1 class="text-8xl mb-4">Thank You</h1>
+        <p class="mt-8 text-2xl accent-text">Any Questions?</p>
+        <p class="mt-12 opacity-40">github.com/bmislol/smart-travel-planner</p>
+    </div>
+
+    <div class="controls">
+        <button class="btn" onclick="prevSlide()">← Prev</button>
+        <button class="btn" onclick="nextSlide()">Next →</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const progress = document.getElementById('progress');
+
+        function showSlide(index) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (index + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            progress.style.width = `${((currentSlide + 1) / slides.length) * 100}%`;
+        }
+
+        function nextSlide() { showSlide(currentSlide + 1); }
+        function prevSlide() { showSlide(currentSlide - 1); }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+        });
+    </script>
+</body>
+</html>

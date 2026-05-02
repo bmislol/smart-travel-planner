@@ -1,0 +1,50 @@
+# /docker-compose.yml
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: travel_db
+    environment:
+      POSTGRES_USER: bmislol
+      POSTGRES_PASSWORD: Charbel12
+      POSTGRES_DB: travel_planner
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - travel_network
+
+  backend:
+    build: ./backend
+    container_name: travel_backend
+    ports:
+      - "8000:8000"
+    environment:
+      # CRITICAL: We override the DB URL here. 
+      # "localhost" won't work in Docker! We must point it to the "db" container.
+      - DATABASE_URL=postgresql+asyncpg://postgres:mysecretpassword@db:5432/travel_planner
+    env_file:
+      - ./backend/.env # Loads your LangSmith and API keys!
+    depends_on:
+      - db
+    networks:
+      - travel_network
+
+  frontend:
+    build: ./frontend
+    container_name: travel_frontend
+    ports:
+      - "5173:80" # Maps your browser's localhost:5173 to Nginx's port 80
+    networks:
+      - travel_network
+
+# Defines the "neighborhood"
+networks:
+  travel_network:
+    driver: bridge
+
+# Ensures your database doesn't wipe itself when you turn Docker off
+volumes:
+  postgres_data:

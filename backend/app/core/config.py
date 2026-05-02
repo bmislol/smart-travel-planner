@@ -26,6 +26,11 @@ class Settings(BaseSettings):
     # API Keys
     ANTHROPIC_API_KEY: str
     WEATHER_API_KEY: str
+
+    # Add these LangSmith variables
+    LANGCHAIN_TRACING_V2: str = "false"
+    LANGCHAIN_API_KEY: str = ""
+    LANGCHAIN_PROJECT: str = "Smart Travel Planner"
     
     # Model Routing (Defaults to the 2026 versions)
     STRONG_MODEL: str = "claude-3-5-sonnet-latest"

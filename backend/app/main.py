@@ -1,5 +1,7 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from app.core.config import settings
 from contextlib import asynccontextmanager
 import httpx
 
@@ -8,6 +10,11 @@ from app.services.embedder import embedder
 from app.services.classifier_service import classifier_service
 from app.services.weather_service import weather_service
 from app.db.session import engine
+
+if settings.LANGCHAIN_TRACING_V2.lower() == "true":
+    os.environ["LANGCHAIN_TRACING_V2"] = settings.LANGCHAIN_TRACING_V2
+    os.environ["LANGCHAIN_API_KEY"] = settings.LANGCHAIN_API_KEY
+    os.environ["LANGCHAIN_PROJECT"] = settings.LANGCHAIN_PROJECT
 
 from app.api import auth, agent
 

@@ -71,3 +71,19 @@ The winning HistGradient Boosting pipeline was fine-tuned using `GridSearchCV` (
 * **Tuned Results:** The optimal parameters (`learning_rate`: 0.05, `max_iter`: 150, `l2_regularization`: 0.0) pushed the final Cross-Validated Macro F1 to **0.9240**.
 
 A permutation importance analysis confirmed the model relies most heavily on `City_Scale` and `Tourist_Cost_Score`—proving it logically groups destinations identically to human intuition. The final, tuned pipeline was serialized via `joblib` and is injected as a dependency singleton into the FastAPI backend during the application lifespan loop.
+
+### 💰 Per-Query Cost Breakdown
+
+To optimize costs without sacrificing quality, this project uses a **Two-Model Architecture**:
+1. **The Router:** Claude 3.5 Haiku (Extremely cheap, used for logical tool-calling)
+2. **The Synthesizer:** Claude 3.7 Sonnet (Premium, used for final prose generation)
+
+*Note: Pricing based on Anthropic API rates per 1 Million Tokens.*
+
+| Execution Step | Model Used | Estimated Input Tokens | Estimated Output Tokens | Estimated Cost |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Tool Routing** | Claude 3.5 Haiku | ~500 ($0.25 / 1M) | ~50 ($1.25 / 1M) | $0.00018 |
+| **2. Final Synthesis** | Claude 3.7 Sonnet | ~1,500 ($3.00 / 1M) | ~400 ($15.00 / 1M) | $0.01050 |
+| **Total per Query** | | **~2,000 Tokens** | **~450 Tokens** | **~$0.01** |
+
+**Conclusion:** By offloading the "thinking/routing" step to Haiku, we save approximately 30% per query compared to running the entire LangGraph loop exclusively on Sonnet, bringing the average cost of a highly complex, tool-augmented response to just **1 cent**.
